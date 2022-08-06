@@ -18,6 +18,7 @@
 # A function to calculate change
 
 import data
+# from varname import nameof
 
 
 def check_resources(resources, coffee_type):
@@ -70,11 +71,6 @@ def ask_for_coffee_type():
     return coffee_type
 
 
-def ask_for_coins():
-    coins_type_list = ['quarters', 'dimes', 'nickles', 'pennies']
-    for type in coins_type_list:
-        globals()[type] = int(input(f"how many {type}?: "))
-    return quarters, dimes, nickles, pennies
 
 
 def print_not_enough_money():
@@ -124,7 +120,38 @@ def coffee_machine(run=True):
         make_a_coffee(resources)
 
 
-coffee_machine()
+# coffee_machine()
 
-    
-        
+def ask_for_coins_varname_package():
+    # I don't know why this public computer doesn't let me use console or terminal
+    # that is why I haven't tested this code
+    quarters, dimes, nickles, pennies = [None for _ in range(0, 4)]
+    coins_type_list = [quarters, dimes, nickles, pennies]
+    for coins_type in coins_type_list:
+        coins_type = int(input(f"how many {varname.nameof(coins_type)}?: "))
+    return quarters, dimes, nickles, pennies
+
+def ask_for_coins_locals():
+    """This function get 4 type of coins input from user and return number of each type they gave"""
+    #tried to use locals() but didnt work, that's why i use globals here
+    coins_type_list = ['quarters', 'dimes', 'nickles', 'pennies']
+    for coins_type in coins_type_list:
+        globals()[coins_type] = int(input(f"how many {coins_type}?: "))  # This line
+    return quarters, dimes, nickles, pennies
+
+def ask_for_coins_dict():
+    coins_dict = {
+        "quarters": None,
+        "dimes": None,
+        "nickles": None,
+        "pennies": None
+    }
+    for coins_type in coins_dict.keys():
+        coins_dict[coins_type] = int(input(f"how many {coins_type}?: "))
+    return list(coins_dict.values())
+
+# The three one above are all bad, can just use
+def ask_for_coins_pro():
+    return [int(input(f"how many {coins_type}?: ")) for coin_type in ['quarters', 'dimes', 'nickles', 'pennies']]
+
+print(ask_for_coins_dict()[1])
