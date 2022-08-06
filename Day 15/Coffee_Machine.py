@@ -152,6 +152,6 @@ def ask_for_coins_dict():
 
 # The three one above are all bad, can just use
 def ask_for_coins_pro():
-    return [int(input(f"how many {coins_type}?: ")) for coin_type in ['quarters', 'dimes', 'nickles', 'pennies']]
+    return [int(input(f"how many {coins_type}?: ")) for coins_type in ['quarters', 'dimes', 'nickles', 'pennies']]
 
-print(ask_for_coins_dict()[1])
+print(ask_for_coins_pro())
