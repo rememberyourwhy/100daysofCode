@@ -1,37 +1,42 @@
-#Start
-#Ask for which type of coffee to make
-#check resources if there are enough to make that cup
+# Start
+# Ask for which type of coffee to make
+# check resources if there are enough to make that cup
 
 
-#Ask for inserting coins
+# Ask for inserting coins
 # 4 types of coins
 
-#Check if coins value are enough for that cup,
+# Check if coins value are enough for that cup,
 # if yes, give change
 
-#reduce the amount of resources used for that cup
-#print the type of coffee cup the user have chosen
+# reduce the amount of resources used for that cup
+# print the type of coffee cup the user have chosen
 
-#A function to check resources
-#A function to reduce resources
-#A function to get coins value
-#A function to calculate change
+# A function to check resources
+# A function to reduce resources
+# A function to get coins value
+# A function to calculate change
 
 import data
+
 
 def check_resources(resources, coffee_type):
     req = (data.MENU[coffee_type])["ingredients"]
     for key in resources.keys():
-        if resources[key] < req[key]:
-            print(f"Sorry there is not enough {key}.")
-            return False
+        if key in req:
+            if resources[key] < req[key]:
+                print(f"Sorry there is not enough {key}.")
+                return False
+        else:
+            pass
     return True
 
 
 def reduce_resources(resources, coffee_type):
     req = data.MENU[coffee_type]["ingredients"]
     for key in resources.keys():
-        resources[key] -= req[key]
+        if key in req:
+            resources[key] -= req[key]
     return resources
 
 
@@ -47,11 +52,13 @@ def coins_value(quarter, dime, nickel, penny):
         total += locals()[key] * coins_to_value[key]
     return total
 
+
 def check_money(total, coffee_type):
-    if total > data.MENU[coffee_type][cost]:
+    if total > data.MENU[coffee_type]['cost']:
         return True
     else:
         return False
+
 
 def calculate_change(total, coffee_type):
     cost = data.MENU[coffee_type]["cost"]
@@ -69,8 +76,11 @@ def ask_for_coins():
         globals()[type] = int(input(f"how many {type}?: "))
     return quarters, dimes, nickles, pennies
 
+
 def print_not_enough_money():
     print("Sorry that's not enough money. Money refunded.")
+
+
 def print_changes(change):
     if change == 0:
         print("You gave just enough money for your cup")
@@ -81,21 +91,40 @@ def print_changes(change):
 def print_coffee(coffee_type):
     print(f"Here is your {coffee_type}. Enjoy!")
 
-def coffee_machine():
-    resources = data.resources
+
+def make_a_coffee(resources):
     coffee_type = ask_for_coffee_type()
+    # Special condition to turn off or check resources
+    if coffee_type == "off":
+        return
+    if coffee_type == "report":
+        print(resources)
+        return
+    # Check if there are enough resources to make a cup of coffee
     if not check_resources(resources, coffee_type):
         return
+    # input coins and get their total value
     quarters, dimes, nickles, pennies = ask_for_coins()
     total = coins_value(quarters, dimes, nickles, pennies)
+    # Check if the coins put in is enough for a cup of coffee
     if not check_money(total, coffee_type):
         print_not_enough_money()
         return
+    # Calculate change and print
     change = calculate_change(total, coffee_type)
     print_changes(change)
+    # Reduce resources and print out that coffee is made
     reduce_resources(resources, coffee_type)
     print_coffee(coffee_type)
 
+
+def coffee_machine(run=True):
+    resources = data.resources
+    while run:
+        make_a_coffee(resources)
+
+
 coffee_machine()
+
     
         
