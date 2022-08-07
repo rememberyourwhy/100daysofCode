@@ -5,7 +5,7 @@ General idea of this file:
     Second one is Menu which is everything on the menu
 
         First: MenuItem
-        - Attribute: name, cost, ingredients  # list(ingredients.keys()) = [water, milk, coffee]
+        - Attribute: name, cost, ingredients(dict)  # list(ingredients.keys()) = [water, milk, coffee]
         - Method: none
 
         Second: Menu
