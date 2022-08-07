@@ -21,4 +21,3 @@ print(f"Your final score was: {quiz.score}/{quiz.question_number}")
 # For example, if question_data change it data structure, or its dictionary key name
 # We can simply change the code here in main.py to fix it.
 # We don't have to change code that is in quiz_brain.py
-
