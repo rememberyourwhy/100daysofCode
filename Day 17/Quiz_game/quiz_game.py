@@ -16,3 +16,9 @@ while quiz.still_has_questions():
 print("You've completed the quiz")
 print(f"Your final score was: {quiz.score}/{quiz.question_number}")
 
+# This OOP is independent so that if we change here and there in the database
+# We don't have to change any line of code in the other modules
+# For example, if question_data change it data structure, or its dictionary key name
+# We can simply change the code here in main.py to fix it.
+# We don't have to change code that is in quiz_brain.py
+
