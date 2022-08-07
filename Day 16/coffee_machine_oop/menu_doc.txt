@@ -1,0 +1,20 @@
+# This is menu.py documentation
+General idea of this file:
+    Help control and give access to two classes:
+    First one is MenuItem which can be one of the items on menu
+    Second one is Menu which is everything on the menu
+
+        First: MenuItem
+        - Attribute: name, cost, ingredients  # list(ingredients.keys()) = [water, milk, coffee]
+        - Method: none
+
+        Second: Menu
+        - Attribute: menu  # the menu list of MenuItem items
+        - Method:   get_items()  # return list of items that available
+                    find_drink(order_name)  # return a MenuItem object with menu_item.name = "order_name"
+
+Normal procedural process of this two classes:
+-> Menu.__init__ (create a list of MenuItem objects)
+-> Menu.get_items() (return a list of available options)
+-> User Input one of the item on menu ("order")
+-> find_drink("order") (take order as an input and return a MenuItem object)
