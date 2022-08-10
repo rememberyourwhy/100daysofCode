@@ -20,7 +20,7 @@ class Paddle:
         self.head = self.segments[0]
 
     def create_paddle(self):
-        for turtle_index in range(4):
+        for turtle_index in range(5):
             new_segment = Turtle(shape="square")
             new_segment.color("white")
             new_segment.pu()
