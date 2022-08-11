@@ -6,7 +6,6 @@ STARTING_POSITIONS = [(350, 40), (350, 20), (350, 0), (350, -20), (350, -40)]
 class Paddle(Turtle):
     def __init__(self, position):
         super().__init__()
-        self.segments = []
         self.shape("square")
         self.color("white")
         self.shapesize(stretch_wid=5, stretch_len=1)
