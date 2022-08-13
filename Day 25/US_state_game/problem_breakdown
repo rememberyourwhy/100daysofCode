@@ -1,0 +1,23 @@
+# Show the map
+# Extract info from data csv file to get x, y coordination of each
+# User make guess
+# Increase their points if they made a right guess
+# Save high score
+
+# Classes:
+# Writing Turtle
+# Scoreboard
+
+# Some note:
+# get user input: mouse and keyboard
+
+######### WORKING ON ########
+# Make a function to get the exact state they are pointing toward
+    # get their mouse coordination
+    # compare to get the nearest state is being pointed
+
+
+
+
+
+
