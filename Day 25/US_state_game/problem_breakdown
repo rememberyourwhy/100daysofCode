@@ -16,6 +16,13 @@
     # get their mouse coordination
     # compare to get the nearest state is being pointed
 
+# Solution:
+# use onscreenclick() method to get user's input
+# use r_tree package to find the nearest state
+
+# requirement: index data from csv to r_tree objects
+
+
 
 
 

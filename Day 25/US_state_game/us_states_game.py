@@ -1,5 +1,6 @@
 import turtle
 import pandas
+from rtree import index
 from screenwriter import ScreenWriter
 
 # Create screen object, change title
@@ -13,34 +14,39 @@ turtle.shape(image)
 
 screenwriter = ScreenWriter()
 
+idx = index.Index()
 
-# import turtle
-#
-# def get_coor(x, y):
-#     print(x, y)
-#
-# screen = turtle.Screen()
-#
-# turtle.onscreenclick(get_coor)
-# screen.mainloop()
+
+def find_nearest(x, y, rtree):
+    global states_data_list
+    hits = rtree.nearest((x, y, x, y), 1, objects=True)
+    for rtree_ob in hits:
+        print(rtree_ob.id)
+        print(rtree_ob.bbox)
+        print(states_data_list[rtree_ob.id][0])
+
+
 def get_mouse_click_cor(x, y):
-    print(x, y)
+    turtle.onscreenclick(None)
+    global idx
+    find_nearest(x, y, rtree=idx)
+    turtle.onscreenclick(get_mouse_click_cor)
 
 
+# Convert states data so it's easier to use
 states_data = pandas.read_csv("50_states.csv")
-states_dict = states_data.to_dict()
+print(states_data)
+states_data_list = []
+for row in states_data.itertuples():
+    states_data_list.append((row.state, (row.x, row.y)))
+print(states_data_list)
 
+# index to rtree object
+for i in range(len(states_data_list)):
+    x_cor = states_data_list[i][1][0]
+    y_cor = states_data_list[i][1][1]
+    idx.insert(i, (x_cor, y_cor, x_cor, y_cor))
 
 turtle.onscreenclick(get_mouse_click_cor)
 
-screenwriter.write("Hi", (0, 0))
-
 screen.mainloop()
-
-
-
-
-
-
-
-
