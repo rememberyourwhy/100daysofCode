@@ -21,25 +21,29 @@ def find_nearest(x, y, rtree):
     global states_data_list
     hits = rtree.nearest((x, y, x, y), 1, objects=True)
     for rtree_ob in hits:
-        print(rtree_ob.id)
-        print(rtree_ob.bbox)
+        # print(rtree_ob.id)
+        # print(rtree_ob.bbox)
         print(states_data_list[rtree_ob.id][0])
+        return states_data_list[rtree_ob.id][0]
 
 
 def get_mouse_click_cor(x, y):
     turtle.onscreenclick(None)
     global idx
-    find_nearest(x, y, rtree=idx)
+    result = find_nearest(x, y, rtree=idx)
+    user_guess = screen.textinput(title="Make your guess", prompt="Which state u have just clicked on")
+    if user_guess.lower() == result.lower():
+        print("You guessed right")
     turtle.onscreenclick(get_mouse_click_cor)
 
 
 # Convert states data so it's easier to use
 states_data = pandas.read_csv("50_states.csv")
-print(states_data)
+# print(states_data)
 states_data_list = []
 for row in states_data.itertuples():
     states_data_list.append((row.state, (row.x, row.y)))
-print(states_data_list)
+# print(states_data_list)
 
 # index to rtree object
 for i in range(len(states_data_list)):
