@@ -2,6 +2,7 @@ import turtle
 import pandas
 from rtree import index
 from screenwriter import ScreenWriter
+from scoreboard import ScoreBoard
 
 # Create screen object, change title
 screen = turtle.Screen()
@@ -15,6 +16,7 @@ turtle.shape(image)
 screenwriter = ScreenWriter()
 
 idx = index.Index()
+scoreboard = ScoreBoard()
 
 
 def find_nearest(x, y, rtree):
@@ -24,18 +26,24 @@ def find_nearest(x, y, rtree):
         # print(rtree_ob.id)
         # print(rtree_ob.bbox)
         print(states_data_list[rtree_ob.id][0])
-        return states_data_list[rtree_ob.id][0]
+        return states_data_list[rtree_ob.id][0], rtree_ob.bbox[:2]
 
 
 def get_mouse_click_cor(x, y):
     turtle.onscreenclick(None)
     global idx
-    result = find_nearest(x, y, rtree=idx)
-    user_guess = screen.textinput(title="Make your guess", prompt="Which state u have just clicked on")
+    result, cor = find_nearest(x, y, rtree=idx)
+
+    user_guess = screen.textinput(title="Make your guess", prompt=f"""
+        Which state u have just clicked on \n Your score is {scoreboard.score}/ 50
+    """)
     if user_guess.lower() == result.lower():
         print("You guessed right")
+        scoreboard.increase_score()
+    else:
+        print("You guessed wrong")
+    screenwriter.write_on_coordinate(result, cor)
     turtle.onscreenclick(get_mouse_click_cor)
-
 
 # Convert states data so it's easier to use
 states_data = pandas.read_csv("50_states.csv")
