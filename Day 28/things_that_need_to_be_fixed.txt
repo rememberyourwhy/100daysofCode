@@ -1,0 +1,26 @@
+The thing here is that i tried to do so many things as once
+
+To be specific:
+my count_down function is, just so bad to read
+The original one dont even have to use that shortened time_str
+So to get this easier to compare
+I'll summarise what the count_down function does in the original program
+Then ill compare it with what i did myself
+
+first, format the timer string
+then config it to the canvas
+
+second, check count > 0 and continue the recursion
+else:  # count returned to 00:00
+    call its mother function, which is start_timer()
+    then reset marks label
+
+Wow, and that's just it
+Just simple as that
+
+And angela lefts so many rooms for me to improve code length also
+
+Now, lets see what i did:
+I don't even know how I came up with that
+just a collection of garbage
+

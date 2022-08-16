@@ -8,35 +8,32 @@ GREEN = "#9bdeac"
 ELECTRIC_GREEN = "#00ff00"
 YELLOW = "#f7f5dd"
 FONT_NAME = "Courier"
-WORK_MIN = 0.1
-SHORT_BREAK_MIN = 0.1
-LONG_BREAK_MIN = 1
+WORK_MIN = 20
+SHORT_BREAK_MIN = 5
+LONG_BREAK_MIN = 20
+cancel_id = None
 CHECK_MARK = "✓"
 
 
 # ---------------------------- TIMER RESET ------------------------------- #
+# noinspection PyTypeChecker
 def reset_timer():
     global cancel_id
-    if cancel_id is not None:
-        window.after_cancel(cancel_id)
-        cancel_id = None
-        buttons[0].config(state="active")
-        canvas.itemconfig(timer_text, text="00:00")
-        check_mark_label_var.set("")
+    window.after_cancel(cancel_id)
+    buttons[0].config(state="active")
+    canvas.itemconfig(timer_text, text="00:00")
+    check_mark_label_var.set("")
 
 
 # ---------------------------- TIMER MECHANISM ------------------------------- #
 def start_timer():
-    if True:
-        buttons[0].config(state="disabled")
-        print("bru")
+    buttons[0].config(state="disabled")
     timer_label_var.set("Work")
     count_down(WORK_MIN * 60)
 
 
 # ---------------------------- COUNTDOWN MECHANISM ------------------------------- #
 def count_down(count, break_time=False):
-    global WORK_MIN, SHORT_BREAK_MIN, LONG_BREAK_MIN
     global cancel_id
 
     # Make timer looks nice
@@ -92,7 +89,6 @@ check_mark_label.grid(column=2, row=4)
 
 
 # Button
-cancel_id = None
 start_button = Button(text="Start", command=start_timer)
 reset_button = Button(text="Reset", command=reset_timer)
 
