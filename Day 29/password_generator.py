@@ -1,5 +1,3 @@
-
-
 #Password Generator Project
 import random
 
@@ -55,17 +53,3 @@ def random_hard(password_easy):
 
 password_easy = random_easy(2, 2, 4)
 password_hard = random_hard(password_easy)
-print(*password_easy, sep='')
-print(*password_hard, sep='')
-
-#Bro, how tf no bug
-#The worst code ive made for this type of program
-#:D
-
-
-
-
-
-#Optimized Function
-
-

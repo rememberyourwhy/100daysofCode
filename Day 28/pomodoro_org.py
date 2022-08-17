@@ -5,14 +5,15 @@ RED = "#e7305b"
 GREEN = "#9bdeac"
 YELLOW = "#f7f5dd"
 FONT_NAME = "Courier"
-WORK_MIN = 0.1
-SHORT_BREAK_MIN = 0.1
-LONG_BREAK_MIN = 0.1
+WORK_MIN = 15
+SHORT_BREAK_MIN = 5
+LONG_BREAK_MIN = 15
 reps = 0
 timer = None
 
 
 # ---------------------------- TIMER RESET ------------------------------- #
+# noinspection PyTypeChecker
 def reset_timer():
     window.after_cancel(timer)
     canvas.itemconfig(timer_text, text="00:00")

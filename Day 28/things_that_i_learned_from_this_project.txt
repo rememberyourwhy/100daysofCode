@@ -1,0 +1,2 @@
+just start fixing small problems, don't merge them together and make them become complicated big problem
+breakdown and fix not breakdown and merge them back
