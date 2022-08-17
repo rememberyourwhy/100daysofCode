@@ -54,7 +54,8 @@ def save_password():
     def yes_button():
         with open(file="data.txt", mode="a") as data:
             data.write(f"{email_username}\n{password}\n")
-
+            website_entry.delete(0, END)
+            password_entry.delete(0, END)
     button_yes = Button(popup, text="Yes", command=yes_button, width=10)
     button_yes.grid(row=3, column=0)
 
@@ -67,8 +68,8 @@ window.config(padx=40, pady=40)
 
 # Canvas
 canvas = Canvas(width=280, height=280)
-mypass_img = PhotoImage(file="logo.png")
-canvas.create_image(140, 140, image=mypass_img)
+my_pass_img = PhotoImage(file="logo.png")
+canvas.create_image(140, 140, image=my_pass_img)
 canvas.grid(row=0, column=0, columnspan=3)
 
 # Labels
