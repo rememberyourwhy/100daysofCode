@@ -13,6 +13,7 @@ print("Welcome to the PyPassword Generator!")
 #Hard Level - Order of characters randomised:
 #e.g. 4 letter, 2 symbol, 2 number = g^2jk8&P
 
+
 def randomize_list(n):
     normal_range_list = [x for x in range(0, n)]
     max_range = len(normal_range_list)
@@ -23,12 +24,14 @@ def randomize_list(n):
         result_list.append(randlist_new_element)
     return result_list
 
+
 def password_order_randomizing(password_before, randomize_list):
     password_after = []
     for i in range(len(randomize_list)):
         new_element = password_before[randomize_list[i]]
         password_after.append(new_element)
     return password_after
+
 
 def random_easy(nr_letters, nr_symbols, nr_numbers):
     result_list = []
@@ -45,6 +48,7 @@ def random_easy(nr_letters, nr_symbols, nr_numbers):
             new_element = storage_list[input_index][new_element_index]
             result_list.append(new_element)
     return result_list
+
 
 def random_hard(password_easy):
     random_order_list = randomize_list(len(password_easy))

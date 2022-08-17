@@ -1,0 +1,54 @@
+
+
+# -----------------------generate_password function.-------------------- #
+
+# My function is poorly written
+# Used too many unnecessary logic that just make things become unclear
+
+much better way to do this is using list comprehension
+My approach:
+    a bunch of craps, cant even understand what i wrote
+Instructor approach:
+    for everything that make output as a list, consider using list comprehension
+    try to be obsess with list comprehension.
+    To make it simple, her approach can be explain in two step:
+    # Step 1:
+        Use list comprehension to make three lists for each type of character
+    # Step 2:
+        Combine them together and use "shuffle()" function to rearrange them
+        Then use join to turn it back to a string
+    Just pure beauty
+
+# ----------------------- check_missing_fields function ------------------ #
+
+# Although this part is bad too, but i can blame it for not knowing about
+message box class
+# So ill try to read just some of it to fix.
+
+# Read My code:
+    What a relief, i didn't actually make bad code.
+    Instead, i just too focused on making things to look nice
+    But, still:
+        Lines_waste_counter =
+        3 : getting entry values twice
+        5 : making error popup window which can be much shorter
+        9999: make a bridge function with the only use is to check
+
+# Her code:
+    One line :D
+
+# ------------------------ check save function --------------------------- #
+
+# Not that bad, but, again, just look at Angela's code:
+# Just,....
+# I WANT TO WRITE CLEAN CODE
+
+# I will just explain what she did:
+    So easy to catch up that there are only three steps here:
+    # Step 1:
+        Get entries value
+    # Step 2:
+        Check if there are any field left unfilled if not go to Step 3
+    # Step 3:
+        Give final check for the information we input then write it to data file.
+# Just pure beauty, again

@@ -30,14 +30,14 @@ def check_missing_fields():
 
 
 def save_password():
-    # get
+    # get (DUPLICATED)
     email_username = email_username_entry.get()
     password = password_entry.get()
-    # create popup window
+    # create popup window (NOT NEEDED)
     popup = Toplevel(window, padx=20, pady=20)
     popup.geometry("325x125")
     popup.title("Final Check")
-    # last check label and decision buttons
+    # last check label and decision buttons (NOT NEEDED)
     last_check_label = Label(popup, text="Are you sure you want to save this account to data?")
     last_check_label.grid(row=0, column=0, columnspan=2, sticky="ew")
     show_info_1 = Label(popup, text=email_username)
@@ -94,9 +94,4 @@ generate_password_button.grid(row=3, column=2)
 add_button = Button(text="Add", command=check_missing_fields, width=WIDTH_C1)
 add_button.grid(row=4, column=1, columnspan=2, sticky="ew")
 
-
-def main():
-    window.mainloop()
-
-
-main()
+window.mainloop()
