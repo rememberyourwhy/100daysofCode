@@ -53,6 +53,7 @@ right_button.grid(column=1, row=1)
 # Mainloop
 
 window.mainloop()
+# First UI step
 # I'll do the UI part
 # First, make the canvas
 # Then add front image to it
@@ -62,3 +63,6 @@ window.mainloop()
 
 # Grid setup
 # two Label will take up two column, so their column span will be 2
+# Get CSV inf
+# make function get new word
+
