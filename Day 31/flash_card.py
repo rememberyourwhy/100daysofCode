@@ -1,71 +1,87 @@
 from tkinter import *
+from tkinter import messagebox
 import json
+from term import Term
 
 
 # ----------------------------------- CONSTANTS --------------------- #
 BACKGROUND_COLOR = "#B1DDC6"
 LANGUAGE_NOTE_FONT = "Ariel", 40, "italic"
 WORD_NOTE_FONT = "Ariel", 60, "bold"
+MAX_INDEX = 100
+SMALLER_FONT = "Ariel", 40, "normal"
 
 
-# ------------------------------- I KNOW THIS WORLD ------------------ #
+# --------------------------- CANVAS FLIP ---------------------------- #
+def clicked(event):
+    canvas.itemconfig(cv_img, image=card_back_img)
+    canvas.itemconfig(cv_language_text, text="English")
+    canvas.itemconfig(cv_word_text, text=term.value["English"])
+
+
+# --------------------------- UPDATE THE CANVAS ---------------------- #
+def update_the_canvas(index):
+    global term
+    term = Term(get_a_word(index))
+    canvas.itemconfig(cv_img, image=card_front_img)
+    canvas.itemconfig(cv_language_text, text="French")
+    canvas.itemconfig(cv_word_text, text=term.value["French"])
+
+
+# ----------------------------- UPDATE DATA TO WORDS.JSON ------------ #
+def update_data():
+    global term
+    new_data = term.full_dict
+
+    with open("words.json", mode="r") as data_file:
+        data = json.load(data_file)
+        data.update(new_data)
+    with open("words.json", mode="w") as data_file:
+        json.dump(data, data_file, indent=4)
+
+
+# ------------------------------- I KNOW THIS WORD ------------------ #
 def this_word_is_known():
-    """
-    # save this known word to known_word json
-    # UPDATE THE CANVAS
-    """
-    known_word_french = new_word["French"]
-    known_word_english = new_word["English"]
-    new_data = {index :{"French" :known_word_french,
-                        "English":known_word_english,
-                        "known": False
-                        }
-                }
-
-    """
-    # Syntax of this function:
-    # var_to_be_assigned = 
-    # canvas.itemcget(item_id, datatype)
-    # item_id (the one that canvas.create_text or canvas.create_image return)
-    # datatype : "text" or "image"
-    """
-    with open("known_word.json", mode="w") as known_word_file:
-        json.dump(new_data, known_word_file, indent=4)
-    update_the_canvas()
+    global term
+    term.to_known()
+    update_data()
+    new_index = term.index + 1
+    update_the_canvas(new_index)
 
 
-# ------------------------------- I DON'T KNOW THIS WORLD ------------------ #
+# ------------------------------- I DON'T KNOW THIS WORD ------------------ #
 def this_word_is_unknown():
-    """
-    # save this unknown word to unknown_word json
-    # UPDATE THE CANVAS
-    """
-    unknown_word_french = new_word["French"]
-    unknown_word_english = new_word["English"]
-    ew_data = {index: {"French": known_word_french,
-                       "English": known_word_english,
-                       "known": False
-                       }
-               }
-    with open("unknown_word.json", mode="w") as unknown_word_file:
-        json.dump(new_data, unknown_word_file, indent=4)
-    update_the_canvas()
+    global term
+    term.to_unknown()
+    update_data()
+    new_index = term.index + 1
+    update_the_canvas(new_index)
+
+
+# -------------------------------- REACHED MAX INDEX ------------------- #
+def reached_max_index():
+    canvas.unbind("<Button-1>")
+    wrong_button.config(state="disabled")
+    right_button.config(state="disabled")
+    canvas.itemconfig(cv_img, image=card_front_img)
+    canvas.itemconfig(cv_language_text, text="REACHED THE END OF THIS DECK", font=SMALLER_FONT)
+    canvas.itemconfig(cv_word_text, text="CLOSE THIS WINDOW", font=SMALLER_FONT)
 
 
 # -------------------------------- GET NEXT WORD --------------------- #
 def get_a_word(index):
-    with open("words.json", mode="r") as words_file:
-        data = json.load(words_file)
-    word =
+    with open("words.json", mode="r") as data_file:
+        data = json.load(data_file)
+    try:
+        is_known = data[str(index)]["known"]
+    except KeyError:
+        reached_max_index()
+    else:
+        if is_known:
+            return get_a_word(index + 1)
+        else:
+            return {index: data[str(index)]}
 
-
-# --------------------------- UPDATE THE CANVAS ---------------------- #
-def update_the_canvas():
-
-    # Call get_next_word function
-    # the return value will be 1: that word in French, 2: that word in English
-    # updating the canvas: with English face
-    pass
 
 # ----------------------------------- UI SETUP ---------------------- #
 
@@ -84,20 +100,28 @@ right_img = PhotoImage(file="images/right.png")
 # ------- Canvas --------- #
 canvas = Canvas(height=526, width=800, bg=BACKGROUND_COLOR, highlightthickness=0)
 
-cv_front_img = canvas.create_image(400, 263, image=card_front_img)
+cv_img = canvas.create_image(400, 263, image=card_front_img)
 cv_language_text = canvas.create_text(400, 150, text="French", font=LANGUAGE_NOTE_FONT)
-index, new_word = [get_a_word()]
-cv_word_text = canvas.create_text(400, 263, text=new_word[0], font=WORD_NOTE_FONT)
-canvas.grid(column=0, row=0, columnspan=2)
+try:
+    term = Term(get_a_word(0))
+except NameError:
+    messagebox.showinfo(title="Congratulation", message="""
+        This deck is already done, program will close after you close this box
+    """)
+    window.destroy()
+else:
+    cv_word_text = canvas.create_text(400, 263, text=term.value["French"], font=WORD_NOTE_FONT)
+    canvas.grid(column=0, row=0, columnspan=2)
+    canvas.bind("<Button-1>", clicked)
 
-# ------- Button ---------- #
-wrong_button = Button(image=wrong_img, command=this_word_is_unknown, highlightthickness=0)
-wrong_button.grid(column=0, row=1)
-right_button = Button(image=right_img, command=this_word_is_known, highlightthickness=0)
-right_button.grid(column=1, row=1)
-# Mainloop
-this_word_is_known()
-window.mainloop()
+    # ------- Button ---------- #
+    wrong_button = Button(image=wrong_img, command=this_word_is_unknown, highlightthickness=0)
+    wrong_button.grid(column=0, row=1)
+    right_button = Button(image=right_img, command=this_word_is_known, highlightthickness=0)
+    right_button.grid(column=1, row=1)
+    # Mainloop
+    this_word_is_known()
+    window.mainloop()
 # First UI step
 # I'll do the UI part
 # First, make the canvas
@@ -129,3 +153,8 @@ window.mainloop()
             }
     }
 """
+
+# _______________________________ HOW TO ...? _________________________________________________________ #
+# how to make canvas a button
+# in other word, bind the canvas to the mouse:
+# https://stackoverflow.com/questions/19369391/how-to-make-a-button-using-the-tkinter-canvas-widget

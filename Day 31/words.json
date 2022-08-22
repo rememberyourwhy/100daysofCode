@@ -1,0 +1,512 @@
+{
+    "0": {
+        "French": "partie",
+        "English": "part",
+        "known": true
+    },
+    "1": {
+        "French": "histoire",
+        "English": "history",
+        "known": true
+    },
+    "2": {
+        "French": "chercher",
+        "English": "search",
+        "known": true
+    },
+    "3": {
+        "French": "seulement",
+        "English": "only",
+        "known": true
+    },
+    "4": {
+        "French": "police",
+        "English": "police",
+        "known": true
+    },
+    "5": {
+        "French": "pensais",
+        "English": "thought",
+        "known": true
+    },
+    "6": {
+        "French": "aide",
+        "English": "help",
+        "known": true
+    },
+    "7": {
+        "French": "demande",
+        "English": "request",
+        "known": true
+    },
+    "8": {
+        "French": "genre",
+        "English": "kind",
+        "known": true
+    },
+    "9": {
+        "French": "mois",
+        "English": "month",
+        "known": true
+    },
+    "10": {
+        "French": "fr\u00e8re",
+        "English": "brother",
+        "known": true
+    },
+    "11": {
+        "French": "laisser",
+        "English": "let",
+        "known": true
+    },
+    "12": {
+        "French": "car",
+        "English": "because",
+        "known": true
+    },
+    "13": {
+        "French": "mettre",
+        "English": "to put",
+        "known": true
+    },
+    "14": {
+        "French": "aucun",
+        "English": "no",
+        "known": true
+    },
+    "15": {
+        "French": "laisse",
+        "English": "leash",
+        "known": true
+    },
+    "16": {
+        "French": "eux",
+        "English": "them",
+        "known": true
+    },
+    "17": {
+        "French": "ville",
+        "English": "city",
+        "known": true
+    },
+    "18": {
+        "French": "chaque",
+        "English": "each",
+        "known": true
+    },
+    "19": {
+        "French": "parl\u00e9",
+        "English": "speak",
+        "known": true
+    },
+    "20": {
+        "French": "arriv\u00e9",
+        "English": "come",
+        "known": true
+    },
+    "21": {
+        "French": "devrait",
+        "English": "should",
+        "known": true
+    },
+    "22": {
+        "French": "b\u00e9b\u00e9",
+        "English": "baby",
+        "known": true
+    },
+    "23": {
+        "French": "longtemps",
+        "English": "long time",
+        "known": true
+    },
+    "24": {
+        "French": "heures",
+        "English": "hours",
+        "known": true
+    },
+    "25": {
+        "French": "vont",
+        "English": "will",
+        "known": true
+    },
+    "26": {
+        "French": "pendant",
+        "English": "while",
+        "known": true
+    },
+    "27": {
+        "French": "revoir",
+        "English": "meet again",
+        "known": true
+    },
+    "28": {
+        "French": "aucune",
+        "English": "any",
+        "known": true
+    },
+    "29": {
+        "French": "place",
+        "English": "square",
+        "known": true
+    },
+    "30": {
+        "French": "parle",
+        "English": "speak",
+        "known": true
+    },
+    "31": {
+        "French": "compris",
+        "English": "understood",
+        "known": true
+    },
+    "32": {
+        "French": "savais",
+        "English": "knew",
+        "known": true
+    },
+    "33": {
+        "French": "\u00e9taient",
+        "English": "were",
+        "known": true
+    },
+    "34": {
+        "French": "attention",
+        "English": "Warning",
+        "known": true
+    },
+    "35": {
+        "French": "voici",
+        "English": "here is",
+        "known": true
+    },
+    "36": {
+        "French": "pourrais",
+        "English": "could",
+        "known": true
+    },
+    "37": {
+        "French": "affaire",
+        "English": "case",
+        "known": true
+    },
+    "38": {
+        "French": "donner",
+        "English": "give",
+        "known": true
+    },
+    "39": {
+        "French": "type",
+        "English": "type",
+        "known": true
+    },
+    "40": {
+        "French": "leurs",
+        "English": "their",
+        "known": true
+    },
+    "41": {
+        "French": "donn\u00e9",
+        "English": "given",
+        "known": true
+    },
+    "42": {
+        "French": "train",
+        "English": "train",
+        "known": true
+    },
+    "43": {
+        "French": "corps",
+        "English": "body",
+        "known": true
+    },
+    "44": {
+        "French": "endroit",
+        "English": "place",
+        "known": true
+    },
+    "45": {
+        "French": "yeux",
+        "English": "eyes",
+        "known": true
+    },
+    "46": {
+        "French": "fa\u00e7on",
+        "English": "way",
+        "known": true
+    },
+    "47": {
+        "French": "\u00e9coute",
+        "English": "listen",
+        "known": true
+    },
+    "48": {
+        "French": "dont",
+        "English": "whose",
+        "known": true
+    },
+    "49": {
+        "French": "trouve",
+        "English": "find",
+        "known": true
+    },
+    "50": {
+        "French": "premier",
+        "English": "first",
+        "known": true
+    },
+    "51": {
+        "French": "perdu",
+        "English": "lost",
+        "known": true
+    },
+    "52": {
+        "French": "main",
+        "English": "hand",
+        "known": true
+    },
+    "53": {
+        "French": "premi\u00e8re",
+        "English": "first",
+        "known": true
+    },
+    "54": {
+        "French": "c\u00f4t\u00e9",
+        "English": "side",
+        "known": true
+    },
+    "55": {
+        "French": "pouvoir",
+        "English": "power",
+        "known": true
+    },
+    "56": {
+        "French": "vieux",
+        "English": "old",
+        "known": true
+    },
+    "57": {
+        "French": "sois",
+        "English": "be",
+        "known": true
+    },
+    "58": {
+        "French": "tiens",
+        "English": "here",
+        "known": true
+    },
+    "59": {
+        "French": "matin",
+        "English": "morning",
+        "known": true
+    },
+    "60": {
+        "French": "tellement",
+        "English": "so much",
+        "known": true
+    },
+    "61": {
+        "French": "enfant",
+        "English": "child",
+        "known": true
+    },
+    "62": {
+        "French": "point",
+        "English": "point",
+        "known": true
+    },
+    "63": {
+        "French": "venu",
+        "English": "came",
+        "known": true
+    },
+    "64": {
+        "French": "suite",
+        "English": "after",
+        "known": true
+    },
+    "65": {
+        "French": "pardon",
+        "English": "sorry",
+        "known": true
+    },
+    "66": {
+        "French": "venez",
+        "English": "come",
+        "known": true
+    },
+    "67": {
+        "French": "devant",
+        "English": "in front of",
+        "known": true
+    },
+    "68": {
+        "French": "vers",
+        "English": "towards",
+        "known": true
+    },
+    "69": {
+        "French": "minutes",
+        "English": "minutes",
+        "known": true
+    },
+    "70": {
+        "French": "demand\u00e9",
+        "English": "request",
+        "known": true
+    },
+    "71": {
+        "French": "chambre",
+        "English": "bedroom",
+        "known": true
+    },
+    "72": {
+        "French": "mis",
+        "English": "placed",
+        "known": true
+    },
+    "73": {
+        "French": "belle",
+        "English": "beautiful",
+        "known": true
+    },
+    "74": {
+        "French": "droit",
+        "English": "law",
+        "known": true
+    },
+    "75": {
+        "French": "aimerais",
+        "English": "would like to",
+        "known": true
+    },
+    "76": {
+        "French": "aujourd'hui",
+        "English": "today",
+        "known": true
+    },
+    "77": {
+        "French": "mari",
+        "English": "husband",
+        "known": true
+    },
+    "78": {
+        "French": "cause",
+        "English": "cause",
+        "known": true
+    },
+    "79": {
+        "French": "enfin",
+        "English": "finally",
+        "known": true
+    },
+    "80": {
+        "French": "esp\u00e8re",
+        "English": "hope",
+        "known": true
+    },
+    "81": {
+        "French": "eau",
+        "English": "water",
+        "known": true
+    },
+    "82": {
+        "French": "attendez",
+        "English": "Wait",
+        "known": true
+    },
+    "83": {
+        "French": "parti",
+        "English": "left",
+        "known": true
+    },
+    "84": {
+        "French": "nouvelle",
+        "English": "new",
+        "known": true
+    },
+    "85": {
+        "French": "boulot",
+        "English": "job",
+        "known": true
+    },
+    "86": {
+        "French": "arr\u00eater",
+        "English": "Stop",
+        "known": true
+    },
+    "87": {
+        "French": "dirait",
+        "English": "would say",
+        "known": true
+    },
+    "88": {
+        "French": "terre",
+        "English": "Earth",
+        "known": true
+    },
+    "89": {
+        "French": "compte",
+        "English": "account",
+        "known": true
+    },
+    "90": {
+        "French": "donne",
+        "English": "given",
+        "known": true
+    },
+    "91": {
+        "French": "loin",
+        "English": "far",
+        "known": true
+    },
+    "92": {
+        "French": "fin",
+        "English": "end",
+        "known": true
+    },
+    "93": {
+        "French": "croire",
+        "English": "believe",
+        "known": true
+    },
+    "94": {
+        "French": "ch\u00e9rie",
+        "English": "sweetheart",
+        "known": true
+    },
+    "95": {
+        "French": "gros",
+        "English": "large",
+        "known": true
+    },
+    "96": {
+        "French": "plut\u00f4t",
+        "English": "rather",
+        "known": true
+    },
+    "97": {
+        "French": "aura",
+        "English": "will have",
+        "known": true
+    },
+    "98": {
+        "French": "filles",
+        "English": "girls",
+        "known": true
+    },
+    "99": {
+        "French": "jouer",
+        "English": "to play",
+        "known": true
+    },
+    "100": {
+        "French": "bureau",
+        "English": "office",
+        "known": true
+    },
+    "93": {
+        "French": "croire",
+        "English": "believe",
+        "known": true
+    }
+}
