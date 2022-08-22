@@ -1,0 +1,3 @@
+High priority:
+Day 29 : Password manager
+Day 31: Flashcard app

@@ -1,0 +1,22 @@
+parts that are the same:
+flip_card function
+UI setup
+
+parts that are not important:
+    data processing
+
+# ---- IMPORTANT PART THAT ARE DIFF: ----- #
+    - NEXT CARD FUNCTION
+    - IS_KNOWN FUNCTION
+
+# NEXT CARD FUNCTION:
+Cancel window.after
+Choose random card from the dict
+Item_config for card_title, card_word, card_background
+Continue window.after
+
+# IS_KNOWN FUNCTION:
+REMOVE current card from the data (to_learn)
+TURN current data (to_learn) to DataFrame data (data)
+SAVE it to csv file
+CALL next_card() function
