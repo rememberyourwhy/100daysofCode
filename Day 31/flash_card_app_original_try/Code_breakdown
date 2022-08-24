@@ -20,3 +20,14 @@ REMOVE current card from the data (to_learn)
 TURN current data (to_learn) to DataFrame data (data)
 SAVE it to csv file
 CALL next_card() function
+
+
+# Project summarise:
+# New things: use records to change data from csv file to dataframe object to list of dictionary
+# two good function written: next_card function and is_known function
+# next_card function uses window.after, window.after_cancel and random.choice
+    --:> to stop auto reveal cards after next_card is called
+# is_known function uses remove to get rid of known card
+# then turn the data back to csv and save it
+# at the end, it calls next card function
+# flip_card just change card_title, card_word, card_bg content and color
