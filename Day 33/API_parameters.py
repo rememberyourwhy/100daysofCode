@@ -7,22 +7,21 @@ from datetime import datetime
 LATITUDE = 16.066187
 LONGITUDE = 108.212910
 
+
+# ------------------------- GET REQUEST ------------------------ #
 parameters = {
     "lat": LATITUDE,
     "long": LONGITUDE,
     "formatted": 0,
 }
-
-
 response = requests.get("https://api.sunrise-sunset.org/json", params=parameters)
 response.raise_for_status()
 
 data = response.json()
 
+# ------------------------------- COMPARE TIME --------------------------------- #
 sunrise = data["results"]["sunrise"]
 sunset = data["results"]["sunset"]
-
-print([sunrise, sunset])  # 12 hours format
 
 sunrise_time = sunrise.split("T")[1]
 sunrise_hour = int(sunrise_time.split(":")[0])
