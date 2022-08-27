@@ -10,7 +10,7 @@ import random
 now = dt.datetime.now()
 day =["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
 now_weekday = day[now.weekday()]
-if now_weekday != "Friday":
+if now_weekday != "Saturday":
     sys.exit("Not Friday")
 
 # ------------------- QUOTES ---------------------- #
@@ -34,7 +34,7 @@ for line in all_lines:
 # ------------------- EMAIL_SMTP ------------------ #
 # ---------------------- CONSTANTS --------------------- #
 email_sender = "phuc16052001@gmail.com"
-email_password = "xmgkhwzsfppxkysp"
+email_password = "ixhuavoiwftuyaas"
 email_receiver = "phucsetup1@yahoo.com"
 
 # ---------------------- MESSAGE ----------------------- #
