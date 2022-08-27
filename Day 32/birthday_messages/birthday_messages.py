@@ -9,7 +9,7 @@ import os
 
 # ---------------------------------- MAIN CONSTANTS ----------- #
 # noinspection SpellCheckingInspection
-DIRECTORY_AB_PATH = r"C:\Users\pc\PycharmProjects\pythonProject\100daysofCode\Day 32\birthday_messages\letter_templates"
+DIRECTORY_AB_PATH = r"C:\Users\Administrator\PycharmProjects\100daysofCode\Day 32\birthday_messages\letter_templates"
 
 # --------------------- Extra Hard Starting Project --------------------- #
 
