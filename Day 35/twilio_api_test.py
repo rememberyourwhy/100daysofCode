@@ -1,17 +1,24 @@
 import requests
 import json
 from datetime import datetime
+from twilio.rest import Client
 
+
+# ----------------------------------- CONSTANTS --------------------- #
 LATITUDE = 16.066187
 LONGITUDE = 108.212910
 UNITS_OF_MEASUREMENT = "metric"
-FORECAST_TIME = 12
+FORECAST_TIME = 24
+account_sid = "AC221225c316e96bd94add07ab8bdc06e6"
+auth_token = "81b826bdf5d74272510c38b814781c0f"
+
 
 api_key = "8dc1a372b6d8c125d3f718a9b1457da9"
 # Current: OWM_Endpoint = "https://api.openweathermap.org/data/2.5/weather"
 # Forecast
 OWM_Endpoint = "http://api.openweathermap.org/data/2.5/forecast"
 
+# ---------------------------------- OWM API ------------------------ #
 # Parameters:
 # Parameters
 # lat, lon	required	Geographical coordinates (latitude, longitude). If you need the geocoder to automatic convert city names and zip-codes to geo coordinates and the other way around, please use our Geocoding API.
@@ -68,6 +75,18 @@ def will_rain():
     return False
 
 
-print(will_rain())
+# -------------------------- twilio API --------------------- #
+def send_message():
+    client = Client(account_sid, auth_token)
+
+    message = client.messages \
+                    .create(
+                         body="It's going to rain today. Bring raincoat",
+                         from_='+16187875863',
+                         to='+84379809157'
+                     )
+    print(message.status)
 
 
+if will_rain():
+    send_message()
