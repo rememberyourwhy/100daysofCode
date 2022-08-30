@@ -1,6 +1,6 @@
-import json
 import requests
 from newsapi.newsapi_client import NewsApiClient
+import random
 
 # Stocks price checker API
 STOCKS_PRICE_API_URL = "https://www.alphavantage.co/query"
@@ -46,9 +46,9 @@ def is_changed_alot():
     percentage = round(today_close_price / yesterday_close_price * 100)
 
     if percentage > 110 or percentage < 90:
-        return True
+        return True, percentage
     else:
-        return False
+        return False, percentage
 
 
 def get_news():
@@ -67,9 +67,15 @@ def get_news():
         if articles_date == data_date:
             time_relevance_articles.append(articles)
 
-    with open("time_relevance_articles.json", mode="w") as time_relevance_articles_file:
-        json.dump(time_relevance_articles, time_relevance_articles_file, indent=4)
-    print(time_relevance_articles)
+    return time_relevance_articles
 
 
-get_news()
+is_changed_alot_result = is_changed_alot()
+
+# if is_changed_alot_result[0] is False:
+#     exit("Nothing much happened")
+news = get_news()
+random_news = random.choice(news)
+print(random_news["title"])
+print(random_news["description"])
+
