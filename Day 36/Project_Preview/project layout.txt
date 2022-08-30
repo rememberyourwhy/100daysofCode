@@ -1,0 +1,7 @@
+# 1:
+Detect if there are an extraordinary raise or fall of our stocks
+If equal or more than 10% -> send message contains news about the company
+# 2:
+Get news from newsAPI
+# 3:
+Send message using twilio API
