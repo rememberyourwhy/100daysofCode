@@ -1,0 +1,13 @@
+So each classes can get, find, update their responsible datas.
+This main program will decide when for them to do it and how to do it in cooperate with others objects and methods
+
+# First thing is checking weather or not we have iata code in IATA Code row.
+# If no, we call iata search from Flight_Search class, then modify the respectful data in sheet_data
+# Then update the data on sheety using update_data method in Data_Manager class
+
+# STEP BY STEP EXPLANATION:
+# Check if the first row iata codes is filled.
+If not, it means that the first update for destination_data didn't start
+So we will update destination_data by updating sheet_data which is a copy of destination_data
+Then we will assign sheet_data back for destination_data and call update_destination_code method
+# Also remember to import Flight_Search and make an object of it

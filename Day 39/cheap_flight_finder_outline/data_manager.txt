@@ -1,0 +1,28 @@
+This file will responsible for talking to sheety
+Means that if we want to get or put requests to sheety, we will create functions in this Data_Manager class to do it for us
+
+# Basic functions of this class:
+# get data function
+# put data function
+
+
+# STEP BY STEP EXPLANATION:
+Function 1: init:
+    declare self.destination_data which holds every info we requests.get from sheety
+Function 2: get_destination_data:
+    # Guess: use requests.get to get data from sheety endpoint
+    # modify self.destination_data with the response information
+    # also return self.destination_data
+    Guess is right
+Function 3: update_destination_codes:
+    # update only destination_codes column, not all
+    # iterate through the city:
+    new_data = {
+        "price": {
+            "iataCode": city["iataCode"]
+        }
+    }
+    url = f"{SHEETY_PRICES_ENDPOINT}/{city["id"]",
+    json = new_data
+    requests.put using that two arg
+

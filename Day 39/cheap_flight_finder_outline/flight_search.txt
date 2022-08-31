@@ -1,0 +1,6 @@
+# This class will responsible for searching for flight info, includes getting iata code for each destination city
+# In step 2, we will just simply return "TESTING" as a result for iata code search
+
+# STEP BY STEP EXPLANATION:
+# create a method that take city name as input and return the iata code of that city
+# method name: get_destination_code
