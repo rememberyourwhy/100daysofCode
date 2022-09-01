@@ -1,0 +1,127 @@
+{
+    "id": "0f64097b4b404b4b792aa904_0|0f64097b4b404b4b792aa904_1",
+    "flyFrom": "LHR",
+    "flyTo": "HND",
+    "cityFrom": "London",
+    "cityCodeFrom": "LON",
+    "cityTo": "Tokyo",
+    "cityCodeTo": "TYO",
+    "countryFrom": {
+        "code": "GB",
+        "name": "United Kingdom"
+    },
+    "countryTo": {
+        "code": "JP",
+        "name": "Japan"
+    },
+    "nightsInDest": 10,
+    "quality": 2250.362884,
+    "distance": 9601.35,
+    "duration": {
+        "departure": 48900,
+        "return": 54600,
+        "total": 103500
+    },
+    "price": 1726,
+    "conversion": {
+        "EUR": 1996.363519,
+        "GBP": 1726
+    },
+    "fare": {
+        "adults": 1726,
+        "children": 1726,
+        "infants": 1726
+    },
+    "bags_price": {
+        "1": 0,
+        "2": 0
+    },
+    "baglimit": {
+        "hand_height": 40,
+        "hand_length": 55,
+        "hand_weight": 10,
+        "hand_width": 20,
+        "hold_dimensions_sum": 158,
+        "hold_height": 52,
+        "hold_length": 78,
+        "hold_weight": 23,
+        "hold_width": 28
+    },
+    "availability": {
+        "seats": 5
+    },
+    "airlines": [
+        "NH"
+    ],
+    "route": [
+        {
+            "id": "0f64097b4b404b4b792aa904_0",
+            "combination_id": "0f64097b4b404b4b792aa904",
+            "flyFrom": "LHR",
+            "flyTo": "HND",
+            "cityFrom": "London",
+            "cityCodeFrom": "LON",
+            "cityTo": "Tokyo",
+            "cityCodeTo": "TYO",
+            "airline": "NH",
+            "flight_no": 212,
+            "operating_carrier": "NH",
+            "operating_flight_no": "212",
+            "fare_basis": "ULNCJGB",
+            "fare_category": "M",
+            "fare_classes": "U",
+            "fare_family": "",
+            "return": 0,
+            "bags_recheck_required": false,
+            "vi_connection": false,
+            "guarantee": false,
+            "equipment": null,
+            "vehicle_type": "aircraft",
+            "local_arrival": "2022-09-30T16:35:00.000Z",
+            "utc_arrival": "2022-09-30T07:35:00.000Z",
+            "local_departure": "2022-09-29T19:00:00.000Z",
+            "utc_departure": "2022-09-29T18:00:00.000Z"
+        },
+        {
+            "id": "0f64097b4b404b4b792aa904_1",
+            "combination_id": "0f64097b4b404b4b792aa904",
+            "flyFrom": "HND",
+            "flyTo": "LHR",
+            "cityFrom": "Tokyo",
+            "cityCodeFrom": "TYO",
+            "cityTo": "London",
+            "cityCodeTo": "LON",
+            "airline": "NH",
+            "flight_no": 211,
+            "operating_carrier": "NH",
+            "operating_flight_no": "211",
+            "fare_basis": "QLNCJGB",
+            "fare_category": "M",
+            "fare_classes": "Q",
+            "fare_family": "",
+            "return": 1,
+            "bags_recheck_required": false,
+            "vi_connection": false,
+            "guarantee": false,
+            "equipment": null,
+            "vehicle_type": "aircraft",
+            "local_arrival": "2022-10-10T16:25:00.000Z",
+            "utc_arrival": "2022-10-10T15:25:00.000Z",
+            "local_departure": "2022-10-10T09:15:00.000Z",
+            "utc_departure": "2022-10-10T00:15:00.000Z"
+        }
+    ],
+    "booking_token": "E7rv7sYgbjEryVz8RomnwBuulFzwhQ6MG-M2g7R1YvY_xYNINnICuVzIkOXMMAgMvNtjkJQjz0ClELJjhqhsrDq3J1tnL-VmubSAp6ardlqyBH6eWURMXsQaFDu-lyLlb_gtquV1NRmtauFvsuuhPIpP9mIbDpe1fA-vt2DObvDa7QFAxwDRsVsXanigYAttY6_smYHC-HqBhnhN5EG2KostLno7tC9Ebgv8vWNfSPPvS8tUPBb3KbznUnRVK82rsxaj3fcji3Mc7Pcl8kAJPoCMBIHNaZTpi8as55AdoXc4G_nXO3IlqWLaSUHapS7X7vfJBi7dvNO7DHCko4xxk0idDDB8UG8zkjV3l2J6-vqabLSg1-pqzCZPeo-neHrqFiFi35J9wIR3q6TP4KyW12oM_krIYvbYAqEEWR9jYtxlFZSVexpAhjMfVGJaq_YcjaIYZIOWFu9beKDEpl1Azrpxz5_-BqR9ODRGtRW-yjpp_EVPgWiM9KrLr_CRJrg8z",
+    "deep_link": "https://www.kiwi.com/deep?affilid=rememberyourwhyflightsearch&currency=GBP&flightsId=0f64097b4b404b4b792aa904_0%7C0f64097b4b404b4b792aa904_1&from=LHR&lang=en&passengers=1&to=HND&booking_token=E7rv7sYgbjEryVz8RomnwBuulFzwhQ6MG-M2g7R1YvY_xYNINnICuVzIkOXMMAgMvNtjkJQjz0ClELJjhqhsrDq3J1tnL-VmubSAp6ardlqyBH6eWURMXsQaFDu-lyLlb_gtquV1NRmtauFvsuuhPIpP9mIbDpe1fA-vt2DObvDa7QFAxwDRsVsXanigYAttY6_smYHC-HqBhnhN5EG2KostLno7tC9Ebgv8vWNfSPPvS8tUPBb3KbznUnRVK82rsxaj3fcji3Mc7Pcl8kAJPoCMBIHNaZTpi8as55AdoXc4G_nXO3IlqWLaSUHapS7X7vfJBi7dvNO7DHCko4xxk0idDDB8UG8zkjV3l2J6-vqabLSg1-pqzCZPeo-neHrqFiFi35J9wIR3q6TP4KyW12oM_krIYvbYAqEEWR9jYtxlFZSVexpAhjMfVGJaq_YcjaIYZIOWFu9beKDEpl1Azrpxz5_-BqR9ODRGtRW-yjpp_EVPgWiM9KrLr_CRJrg8z",
+    "facilitated_booking_available": false,
+    "pnr_count": 1,
+    "has_airport_change": false,
+    "technical_stops": 0,
+    "throw_away_ticketing": false,
+    "hidden_city_ticketing": false,
+    "virtual_interlining": false,
+    "local_arrival": "2022-09-30T16:35:00.000Z",
+    "utc_arrival": "2022-09-30T07:35:00.000Z",
+    "local_departure": "2022-09-29T19:00:00.000Z",
+    "utc_departure": "2022-09-29T18:00:00.000Z"
+}
