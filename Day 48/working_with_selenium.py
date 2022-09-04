@@ -58,4 +58,8 @@ print(price.get_property("href"))
 #     sample code:
 #     print(price.get_attribute("placeholder"))
 
+# SEARCH ELEMENTS USING XPATH:
+# JUST GO TO THAT ELEMENT CODE IN DEVELOPER MENU: CTRL SHIFT I
+# RIGHT MOUSE, SELECT COPY -> COPY XPATH
+
 driver.quit()
