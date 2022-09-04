@@ -1,0 +1,40 @@
+{
+    "href": "https://api.spotify.com/v1/users/31jlthfb4qsn4tssxem7cvohxjfa/playlists?offset=0&limit=50",
+    "items": [
+        {
+            "collaborative": false,
+            "description": "PTCUTEEE",
+            "external_urls": {
+                "spotify": "https://open.spotify.com/playlist/3N5coppRTixgiQtfhEMIfP"
+            },
+            "href": "https://api.spotify.com/v1/playlists/3N5coppRTixgiQtfhEMIfP",
+            "id": "3N5coppRTixgiQtfhEMIfP",
+            "images": [],
+            "name": "PT",
+            "owner": {
+                "display_name": "TP",
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/user/31jlthfb4qsn4tssxem7cvohxjfa"
+                },
+                "href": "https://api.spotify.com/v1/users/31jlthfb4qsn4tssxem7cvohxjfa",
+                "id": "31jlthfb4qsn4tssxem7cvohxjfa",
+                "type": "user",
+                "uri": "spotify:user:31jlthfb4qsn4tssxem7cvohxjfa"
+            },
+            "primary_color": null,
+            "public": true,
+            "snapshot_id": "MixmYzBlOWE4Zjc2ZWM2OGRkN2JjYjg0N2U3OGU4ZGVjNDhhNDk4YjJi",
+            "tracks": {
+                "href": "https://api.spotify.com/v1/playlists/3N5coppRTixgiQtfhEMIfP/tracks",
+                "total": 0
+            },
+            "type": "playlist",
+            "uri": "spotify:playlist:3N5coppRTixgiQtfhEMIfP"
+        }
+    ],
+    "limit": 50,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total": 1
+}

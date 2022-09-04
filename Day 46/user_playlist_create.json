@@ -1,0 +1,39 @@
+{
+    "collaborative": false,
+    "description": "List Top 100 Billboard from date: 2000-08-12",
+    "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/0xxS0sL9CpXhLSArhtYo9j"
+    },
+    "followers": {
+        "href": null,
+        "total": 0
+    },
+    "href": "https://api.spotify.com/v1/playlists/0xxS0sL9CpXhLSArhtYo9j",
+    "id": "0xxS0sL9CpXhLSArhtYo9j",
+    "images": [],
+    "name": "2000-08-12 Billboard 100",
+    "owner": {
+        "display_name": "TP",
+        "external_urls": {
+            "spotify": "https://open.spotify.com/user/31jlthfb4qsn4tssxem7cvohxjfa"
+        },
+        "href": "https://api.spotify.com/v1/users/31jlthfb4qsn4tssxem7cvohxjfa",
+        "id": "31jlthfb4qsn4tssxem7cvohxjfa",
+        "type": "user",
+        "uri": "spotify:user:31jlthfb4qsn4tssxem7cvohxjfa"
+    },
+    "primary_color": null,
+    "public": false,
+    "snapshot_id": "MSxjZWUxMTQyM2IzY2QwMGJkNzUxZmQ0NTVhOTFmZmY1OTk2YjU4Mjgw",
+    "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/0xxS0sL9CpXhLSArhtYo9j/tracks",
+        "items": [],
+        "limit": 100,
+        "next": null,
+        "offset": 0,
+        "previous": null,
+        "total": 0
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:0xxS0sL9CpXhLSArhtYo9j"
+}
