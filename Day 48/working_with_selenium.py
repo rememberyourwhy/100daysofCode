@@ -53,6 +53,9 @@ print(price.get_property("href"))
 #     # DOCUMENTATION LINK: https://selenium-python.readthedocs.io/locating-elements.html#locating-elements
 #     price = driver.find_element(By.CSS_SELECTOR, ".documentation-widget a")
 #     print(price.get_property("href"))
+#     or get_attribute
+#     I should learn about these
+
 # size
 # get_attribute
 #     sample code:
