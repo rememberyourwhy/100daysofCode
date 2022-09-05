@@ -4,6 +4,8 @@ from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 import time
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 
 # ------------ CONSTANTS ------------- #
 PROMISED_DOWN = 150
@@ -45,15 +47,30 @@ def twitter_auto_login():
 
         time.sleep(2)
 
-        # driver.execute_script("arguments[0].submit();", password_input)
-        password_input.send_keys(Keys.ENTER)
+        driver.execute_script("var script = document.createElement('script'); script.src = 'https://code.jquery.com/jquery-3.6.0.min.js'; var e = $.Event( 'keypress', { which: 13 } );arguments[0].trigger(e);", password_input)
+
+# def twitter_auto_login():
+#     username_input = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.XPATH, "//input[@autocomplete='username']")))
+#     username_input.send_keys(TWITTER_EMAIL)
+#     username_input.send_keys(Keys.ENTER)
+#
+#     phone_input = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.XPATH, "//input[@autocomplete='on']")))
+#     phone_input.send_keys(TWITTER_PHONE_NUMBER)
+#     phone_input.send_keys(Keys.ENTER)
+#
+#     password_input = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.XPATH, "//input[@autocomplete='current-password']")))
+#     password_input.send_keys(TWITTER_PASSWORD)
+#     password_input.send_keys(Keys.ENTER)
+#
+#
+# twitter_auto_login()
 
 
 def twitter_post_complaint(up_speed, down_speed):
 
     draft_input_tag = driver.find_element(By.CSS_SELECTOR, "public-DraftStyleDefault-block")
     complaint_msg = f"""
-Hey @Comcast why is my internet speed {down_speed}down\\{up_speed}up when I pay for 150down\\10up in Washington DC? 
+Hey @Comcast why is my internet speed {down_speed}down\\{up_speed}up when I pay for 150down\\10up in Washington DC?
 @ComcastCares @xfinity #comcast #speedtest
     """
     draft_input_tag.send_keys(complaint_msg)
@@ -72,6 +89,5 @@ print("STARTING TO POST COMPLAIN")
 twitter_post_complaint("10", "10")
 time.sleep(5)
 
-while True:
-    time.sleep(10)
+driver.quit()
 
