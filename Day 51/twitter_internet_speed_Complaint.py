@@ -6,13 +6,14 @@ from selenium.webdriver.common.keys import Keys
 import time
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+import os
 
 # ------------ CONSTANTS ------------- #
 PROMISED_DOWN = 150
 PROMISED_UP = 10
-TWITTER_EMAIL = "phuc16052001@gmail.com"
-TWITTER_PHONE_NUMBER = "0379809157"
-TWITTER_PASSWORD = "Phamphuc123"
+TWITTER_EMAIL = os.getenv("TWITTER_EMAIL")
+TWITTER_PHONE_NUMBER = os.getenv("TWITTER_PHONE_NUMBER")
+TWITTER_PASSWORD = os.getenv("TWITTER_PASSWORD")
 
 URL = r"https://twitter.com/i/flow/login"
 
