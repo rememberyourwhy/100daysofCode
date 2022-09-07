@@ -11,8 +11,8 @@ import os
 
 # ------------ CONSTANTS ------------- #
 
-INS_EMAIL = os.getenv("INS_EMAIL")
-INS_PASSWORD = os.getenv("INS_PASSWORD")
+INS_EMAIL = "youremail@gmail.com"
+INS_PASSWORD = "yourpassword"
 INS_URL = "https://instagram.com"
 
 
@@ -37,16 +37,15 @@ class InstaFollower:
         time.sleep(2)
 
         self.driver.get("https://www.instagram.com/geeks_for_geeks/")
+        # change the link above to your instagram link
 
         time.sleep(3)
-
-        # username_input = WebDriverWait(driver, 10).until(
-            # EC.presence_of_element_located((By.XPATH, "//input[@autocomplete='username']")))
 
         followers = WebDriverWait(self.driver, 10).until(
             EC.presence_of_element_located((
                 By.PARTIAL_LINK_TEXT,
                 'followers')))
+        # The line above is optional, you can change followers to following
         followers.click()
 
         time.sleep(3)
@@ -65,34 +64,9 @@ class InstaFollower:
             print(f"scrolling down {run}")
             self.driver.execute_script("arguments[0].scrollTop = arguments[0].scrollHeight", popup)
             time.sleep(2)
-        # Scroll till Followers list is there
-
-    def follow(self):
-        time.sleep(5)
-        all_buttons = self.driver.find_elements(By.CSS_SELECTOR, "._aano button")
-        for button in all_buttons:
-            try:
-                # Trying to do both scrolling and clicking with action chain
-                # action = ActionChains(self.driver)
-                # action.move_to_element(button).perform()
-                # time.sleep(1)
-                # button.click()
-                # print("clicking")
-                # time.sleep(1)
-                button.click()
-                time.sleep(1)
-                pass
-            except:
-                print("EXCEPTION OCCURRED")
-                cancel_button = WebDriverWait(self.driver, 10).until(
-                    EC.presence_of_element_located((
-                        By.XPATH,
-                        '/html/body/div[1]/div/div/div/div[2]/div/div/div[2]/div/div/div[1]/div/div[2]/div/div/div/div/div[2]/div/div/div[3]/button[2]')))
-                cancel_button.click()
 
 
 insta_follower_bot = InstaFollower()
 insta_follower_bot.login()
 time.sleep(2)
 insta_follower_bot.find_followers()
-# insta_follower_bot.follow()
