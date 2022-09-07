@@ -34,21 +34,25 @@ def twitter_auto_login():
 
         time.sleep(5)
 
-        phone_num_input = driver.find_element(By.CSS_SELECTOR, "input")
-        phone_num_input.send_keys(TWITTER_PHONE_NUMBER)
-        time.sleep(2)
-        phone_num_input.send_keys(Keys.ENTER)
+        try:
+            phone_num_input = driver.find_element(By.CSS_SELECTOR, "input")
+            phone_num_input.send_keys(TWITTER_PHONE_NUMBER)
+            time.sleep(2)
+            phone_num_input.send_keys(Keys.ENTER)
+        except:
+            pass
 
         time.sleep(5)
 
-        password_input = driver.find_element(By.CSS_SELECTOR, "input")
+        password_input = driver.find_elements(By.CSS_SELECTOR, "input")[1]
         # driver.execute_script("arguments[0].click();", password_input)
         driver.execute_script("arguments[0].value=arguments[1];", password_input, TWITTER_PASSWORD)
+        driver.execute_script("arguments[0].closest('form').submit()", password_input)
         # https://stackoverflow.com/questions/52273298/what-is-arguments0-while-invoking-execute-script-method-through-webdriver-in
 
         time.sleep(2)
 
-        driver.execute_script("var script = document.createElement('script'); script.src = 'https://code.jquery.com/jquery-3.6.0.min.js'; var e = $.Event( 'keypress', { which: 13 } );arguments[0].trigger(e);", password_input)
+        # driver.execute_script("var script = document.createElement('script'); script.src = 'https://code.jquery.com/jquery-3.6.0.min.js'; var e = $.Event( 'keypress', { which: 13 } );arguments[0].trigger(e);", password_input)
 
 # def twitter_auto_login():
 #     username_input = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.XPATH, "//input[@autocomplete='username']")))
