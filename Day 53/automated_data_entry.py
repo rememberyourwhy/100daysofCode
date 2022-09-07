@@ -98,31 +98,19 @@ headers = {
 class ZillowScraping:  # by Selenium
     # FAILED
     def __init__(self):
-        # s = Service(ChromeDriverManager().install())
-        # self.driver = webdriver.Chrome(service=s)
-        # self.driver.get(ZILLOW_LINK)
-
         response = requests.get(url=ZILLOW_LINK, headers=headers)
         contents = response.text
 
         self.soup = BeautifulSoup(contents, "html.parser")
-        # with open(file="soup_data.html", mode="w") as soup_html:
-        #     soup_html.write(str(data))
+
         self.list_tags = []
 
         self.get_all_info()
 
     def get_all_info(self):
-        # self.list_tags = self.driver.find_elements(
-        #     By.CSS_SELECTOR,
-        #     ".grid-search-results li"
-        # )
+        ul_tag = self.soup.select_one(selector="#search-page-list-container div ul")
+        self.list_tags = ul_tag.find_all(name="li")
 
-        self.list_tags = self.soup.find_all()
-        print(self.list_tags)
-        print("LIST_TAGS")
-        for _ in self.list_tags:
-            print(_)
     @staticmethod
     def get_address(list_tag):
         address_tag = list_tag.select_one("address")
@@ -134,13 +122,7 @@ class ZillowScraping:  # by Selenium
     @staticmethod
     def get_price(list_tag):
 
-        # soup_list_tag = BeautifulSoup(str(list_tag), "html.parser")
-        # dom = etree.HTML(str(soup_list_tag))
-        # price_tag = dom.xpath("//span[@data_test='property-card-price']")
-
-        # price_tag = list_tag.find_element(By.XPATH, "//span[@data_test='property-card-price']")
-        # print(price_tag.text)
-        price_tag = list_tag.find_one(name="span")
+        price_tag = list_tag.find(name="span")
 
         print("PRICE: ")
         print(price_tag.getText())
@@ -150,8 +132,7 @@ class ZillowScraping:  # by Selenium
     def get_link(list_tag):
         soup_list_tag = BeautifulSoup(str(list_tag), "html.parser")
         a_tag = soup_list_tag.select_one("a")
-        # a_tag = list_tag.find_element(By.CSS_SELECTOR, "a")
-        # print(a_tag.get_attribute("href"))
+
         print("LINK: ")
         print(a_tag["href"])
         return str(a_tag["href"])
@@ -166,24 +147,37 @@ class FormBot:
         self.address_input = None
         self.price_input = None
         self.link_input = None
+        self.submit_btn = None
 
         self.detect_input_fields()
 
     def detect_input_fields(self):
+        WebDriverWait(self.driver, 10).until(
+            EC.presence_of_all_elements_located((
+                By.XPATH,
+                "//div[@role='list']")))
         outer_div_tag = self.driver.find_element(By.XPATH, "//div[@role='list']")
-        inputs = WebDriverWait(outer_div_tag, 10).until(
+        inputs = WebDriverWait(outer_div_tag, 20).until(
             EC.presence_of_all_elements_located((
                 By.CSS_SELECTOR,
                 "input")))
+
         self.address_input = inputs[0]
         self.price_input = inputs[1]
         self.link_input = inputs[2]
+
+        WebDriverWait(self.driver, 20).until(
+            EC.presence_of_element_located((
+                By.XPATH,
+                "//div[@role='button']")))
+        self.submit_btn = self.driver.find_element(By.XPATH, "//div[@role='button']")
 
     def send_keys_to_address_price_link(self, address_val, price_val, link_val):
         try:
             self.address_input.send_keys(address_val)
             self.price_input.send_keys(price_val)
             self.link_input.send_keys(link_val)
+            self.submit_btn.click()
         except:
             return 1
         return 0
@@ -191,9 +185,14 @@ class FormBot:
         
 zc = ZillowScraping()
 for li in zc.list_tags:
-    address = zc.get_address(li)
-    price = zc.get_price(li)
-    link = zc.get_link(li)
-    form_bot = FormBot()
-    form_bot.detect_input_fields()
-    form_bot.send_keys_to_address_price_link(address, price, link)
+    print(li)
+    try:
+        address = zc.get_address(li)
+        price = zc.get_price(li)
+        link = zc.get_link(li)
+    except AttributeError:
+        continue
+    else:
+        form_bot = FormBot()
+        form_bot.detect_input_fields()
+        form_bot.send_keys_to_address_price_link(address, price, link)
