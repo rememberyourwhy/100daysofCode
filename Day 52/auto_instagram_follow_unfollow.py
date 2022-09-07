@@ -11,9 +11,12 @@ import os
 
 # ------------ CONSTANTS ------------- #
 
-INS_EMAIL = os.getenv("INS_EMAIL")
-INS_PASSWORD = os.getenv("INS_PASSWORD")
+# INS_EMAIL = os.getenv("INS_EMAIL")
+# INS_PASSWORD = os.getenv("INS_PASSWORD")
 INS_URL = "https://instagram.com"
+
+INS_EMAIL = "phuc1605200111@gmail.com"
+INS_PASSWORD = "Phamphuc123"
 
 
 class InstaFollower:
@@ -33,6 +36,8 @@ class InstaFollower:
         password_input_tag.send_keys(INS_PASSWORD)
         password_input_tag.send_keys(Keys.ENTER)
 
+        print(type(self.driver))
+
     def find_followers(self):
         time.sleep(2)
 
@@ -50,6 +55,8 @@ class InstaFollower:
         followers.click()
 
         time.sleep(3)
+
+
 
         try:
             popup = self.driver.find_element(
@@ -81,6 +88,7 @@ class InstaFollower:
                 # time.sleep(1)
                 button.click()
                 time.sleep(1)
+                button.get_attribute()
                 pass
             except:
                 print("EXCEPTION OCCURRED")
@@ -93,6 +101,6 @@ class InstaFollower:
 
 insta_follower_bot = InstaFollower()
 insta_follower_bot.login()
-time.sleep(2)
-insta_follower_bot.find_followers()
+# time.sleep(2)
+# insta_follower_bot.find_followers()
 # insta_follower_bot.follow()
