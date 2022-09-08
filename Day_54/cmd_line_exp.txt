@@ -1,0 +1,19 @@
+# run cmd and go to desktop folder
+ctrl R
+cd desktop
+
+# make test directory
+mkdir test
+
+# go back to its parent folder and remove test
+cd ..
+rm test
+
+# list out all the files and folders in desktop folder
+ls
+
+# do remove recursively
+rm -rf {folder}
+
+# create a file name main.py
+touch main.py
