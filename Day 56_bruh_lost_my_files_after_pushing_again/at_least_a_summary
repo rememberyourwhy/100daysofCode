@@ -1,0 +1,6 @@
+oh, day 56 just all about putting html file to templates folder
+and all css, imgs and other static files to static
+
+the trick with find and replace about changing path after doing that
+
+also, use document.body.contentEditable=true
