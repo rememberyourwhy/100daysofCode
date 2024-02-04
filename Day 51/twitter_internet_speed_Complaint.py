@@ -117,3 +117,16 @@ if up < PROMISED_UP and down < PROMISED_DOWN:
 
 driver.quit()
 
+###
+# sentence_text = ""
+# sentence_item_span_tag = sentence.find_elements(By.XPATH, "./span")
+# for count, tag in enumerate(sentence_item_span_tag, start=1):
+#     sentence_text += tag.text
+#
+#     # add white space or end sentence symbol
+#     if count != len(sentence_item_span_tag):
+#         sentence_text += " "
+#     else:
+#         sentence_text += sentence.text
+#     print(tag.text)
+###
