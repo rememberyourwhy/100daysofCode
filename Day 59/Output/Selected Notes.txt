@@ -1,0 +1,260 @@
+#separator:tab
+#html:false
+안녕히 계세요.	Goodbye.	Stay in peace.		Used if you are leaving and the other person is staying.												
+안녕히 가세요.	Goodbye.	Go in peace.		Used if the other person is leaving.												
+죄송합니다.	I apologize.	I'm sorry.		Say this if it's your fault, don't say this if you just hear bad news.												
+저기요.	Excuse me!	Hey you, over there!		This is a polite way to get someone's attention.												
+가방이에요.	It's a bag.			가방 - bag, 이에요 - is												
+저예요.	It's me.			저 - me, 예요 - is. When the noun ends in a vowel, 이에요 turns into 예요.												
+저 학생 아니에요.	I'm not a student.			저 - I, 학생 - student, 아니에요 - am not												
+그거 고양이 아니에요.	It's not a cat.	That's not a cat.		고양이 - cat, 그거 - something that is close to the listener, not to the speaker, or something that can't be seen at all.												
+목소리 좋아요.	Your voice is good.	I like her voice.		목소리 - voice, 좋다 - to be good, to like. The person whose voice is being discussed isn't mentioned because it's usually clear from the context.												
+물 있어요.	I have water.	There is water.		물 - water, 있다 - to exist, to have												
+시간 있어요?	Do you have time?	Do we have time?		시간 - time, 있다 - to have												
+맥주 주세요.	Please give me some beer.	I'd like a beer, please.		맥주 - beer, 주다 - to give. The 'please' aspect is included in the honorific ending -세요.												
+제 전공은 경제학이에요.	My major is economics.			제 - my, 전공 - major, 은 - topic marking particle, 경제학 - economics												
+버려요.	Throw it away.			버리다 - to throw away												
+쉬워요.	It's easy.			쉽다 - to be easy												
+어제는 따뜻했어요.	It was warm yesterday.			어제 - yesterday, 따뜻하다 - to be warm												
+달라요.	They are different.	It's different.		다르다 - to be different												
+학교에 갔어요.	I went to school.	They went to school.		학교 - school, 에 - location marking particle, 가다 - to go												
+언제 도착했어요?	When did you arrive?	When did she arrive?		언제 - when, 도착하다 - to arrive												
+아침에 언제 일어나요?	When do you get up in the morning?			일어나다 - to get up, 아침 - morning, 에 - time/location marking particle												
+열 살이에요.	I am ten years old.	He is ten years old.		열 - ten, 살 - a counter for years												
+스무 살이에요.	I am 20 years old.			You remove the ㄹ from 스물 if it's followed by a counter												
+집에 안 가요.	I'm not going home.	I don't go home.		집 - home, 안 - not, 가다 - to go												
+그거 아직 안 버렸어요.	I didn't throw it away yet.			그거 - it, 아직 - yet, 안 - not, 버리다 - to throw away												
+안 먹어요. 배 안 고파요.	I'm not eating. I'm not hungry.			먹다 - to eat, 배 고프다 - to be hungry												
+몰라요.	I don't know.			모르다 - to not know												
+이 음식은 너무 매워요.	This food is very spicy.	This food is too spicy.		이 - this, 음식 - food, 너무 - too, 맵다 - to be spicy												
+저는 부엌에서 음식을 만들어요.	I prepare food in the kitchen.			부엌 - kitchen, 에서 - location marking particle, 음식 - food, 만들다 - to make												
+방에 전화가 있어요?	Is there a telephone in the room?			방 - room, 전화 - telephone, 가 - subject marking particle												
+아니요, 책상이 아니에요.	No, it's not a desk.			아니요 - no, 책상 - desk, 이 - subject marking particle												
+진짜 운동했어요.	I really worked out.	I really did some exercises.		진짜 - really, 운동 - sports, exercise												
+옷장이 없어요.	There is no closet.			옷장 - closet, 이 - subject marking particle												
+가방이 교실에 있어요.	The bag is in the classroom.			가방 - bag, 교실 - classroom												
+샐리 씨가 집에 없어요.	Sally is not at home.			샐리 - Sally, 집 - home												
+얼마 냈어요?	How much did you pay?			얼마 - how much (money), 내다 - to pay												
+이 책 좋아해요?	Do you like this book?			이 - this, 책 - book, 좋아하다 - to like												
+지갑 찾았어요?	Did you find your wallet?			지갑 - wallet, 찾다 - to find												
+아주 멀어요.	It’s very far away.			아주 - very (mostly for the written language), 멀다 - to be far												
+저는 차가 없어요.	I don't have a car.			차 - car												
+책이 얼마예요?	How much is the book?	How much does the book cost?														
+질문 있습니까?	Do you have any questions?			질문 - question, 있다 - to have												
+운동을 합니까?	Do you exercise?			운동하다 - to exercise												
+교회에 다녀요.	They go to church (regularly).	They attend church.		교회 - church, 다니다 - to attend												
+백화점에 가요.	I'm going to the department store.			백화점 - department store												
+아니요, 안 와요.	No, she isn't coming.			오다 - to come												
+한국말을 알아요.	I know Korean.			한국말 - Korean, 알다 - to know												
+방이 안 넓어요.	The room is not spacious.			방 - room, 넓다 - to be spacious												
+저기 재준 씨가 와요.	There's Jaejun coming (this way).			저기 - there (far from the speaker), 오다 - to come												
+어디가 아파요?	Where does it hurt?			'어디' is a noun in Korean so it can be followed by the subject marking particle. Sometimes a more accurate translation is 'which place' or 'what place'.												
+넥타이가 멋있어요.	Your tie looks nice.			넥타이 - tie, 멋있다 - to be cool												
+고맙습니다.	Thank you.			고맙다 - to be thankful												
+형은 키가 커요.	My older brother is tall.			형 - older brother, 키 - height, 크다 - to be big												
+동생은 키가 작아요.	My younger brother is short.	My younger sister is short.		동생 - younger sibling, 작다 - to be small, 키 - height												
+무엇을 배워요?	What do you study?			무엇 - what, 배우다 - to learn												
+배가 고파요.	I'm hungry.			배 - stomach												
+하미 씨, 지금 울어요?	Hami, are you crying?			울다 - to cry												
+엄마를 도와요.	I help my mother.			엄마 - mom, 돕다 - to help												
+어려워요.	It is difficult.			어렵다 - to be difficult												
+추웠어요.	It was cold.			춥다 - to be cold												
+음악을 좋아해요?	Do you like music?			음악 - music												
+만호는 종이가 없어요.	Manho hasn't got any paper.			종이 - paper												
+배가 아파요.	I have a stomachache.			배 - stomach												
+목이 아파요.	I have a sore throat.			목 - throat, neck												
+뭐 골랐어요?	What did you choose?	What did you pick?		고르다 - to choose												
+머리 언제 잘랐어요?	When did you cut your hair?			머리 - hair, 자르다 - to cut												
+보고 싶어요.	I miss you.	I want to see it.		This is a common expression. 보다 - to see, -고 싶다 - to want to												
+뭐 하고 싶어요?	What do you want to do?			뭐 - what (short from 무엇), 하다 - to do, -고 싶다 - to want to												
+텔레비전 보고 싶어요.	I want to watch TV.	We want to watch TV.		텔레비전 - TV												
+영화 보고 싶어요.	I want to watch a movie.	She wants to watch a movie.		영화 - movie												
+일하고 싶어요.	I want to work.			일하다 - to work												
+저도 싫어요.	I hate it too.	I don't want to either.		저 - I, 도 - too, 싫다 - to hate, be unlikeable												
+사무실에 있어요. 빨리 와요.	I'm at the office, come quickly.	I'm at the office, hurry up and come.		사무실 - office, 빨리 - quickly, 오다 - to come												
+책이 책상 위에 있어요.	The book is on the desk.			책 - book, 책상 - desk, 위 - on, above, 에 - location marking particle												
+사과가 의자 아래에 있어요.	The apple is under the chair.			사과 - apple, 의자 - chair, 아래 - below												
+가게가 집 앞에 있어요.	The store is in front of the house.			가게 - store, 앞 - front												
+식당이 도서관 뒤에 있어요.	The restaurant is behind the library.			식당 - restaurant, 도서관 - library, 뒤 - behind												
+컴퓨터가 텔레비전 옆에 있어요.	The computer is next to the TV.			컴퓨터 - computer, 텔레비전 - TV, 옆 - beside												
+우산이 가방 안에 있어요.	The umbrella is in the bag.			우산 - umbrella, 가방 - bag, 안 - inside												
+식당은 몇 층에 있어요?	What floor is the restaurant on?			식당 - restaurant, 몇 - which number, 층 - floor												
+식당은 오 층에 있어요.	The restaurant is on the fifth floor.			오 - 5, 층 - floor												
+누가 했어요?	Who did it?			누가 = 누구 (who) + 가 (subject marking particle)												
+누가 전화했어요?	Who called?	Who made the phone call?		누가 = 누구 (who) + 가, 전화하다 - to make a phone call												
+어제 누가 왔어요?	Who came yesterday?			어제 - yesterday, 오다 - to come												
+그거 누가 만들었어요?	Who made that?			만들다 - to make												
+누가 샀어요?	Who bought it?			사다 - to buy												
+8 시에 일어났어요.	I got up at 8 o'clock.	I got up at 8 am.		시 - hour, 에 - time marking particle, 일어나다 - to get up												
+어떻게 찾았어요?	How did you find it?	How did he find it?		어떻게 - how, 찾다 - to look for, to find												
+어떻게 왔어요?	How did you get here?	How did you come here?		어떻게 - how, 오다 - to come												
+왜 전화했어요?	Why did you call?			왜 - why, 전화하다 - to call on the phone												
+왜 안 왔어요?	Why didn't you come?	Why didn't they come?		왜 - why, 안 - not												
+얼마나 자주 와요?	How often do you come?			얼마나 - how, 자주 - often												
+얼마나 커요?	How big is it?			얼마나 - how, 크다 - to be big												
+얼마나 무거워요?	How heavy is it?			얼마나 - how, 무겁다 - to be heavy												
+부산에서 서울까지 얼마나 걸려요?	How long does it take to go from Busan to Seoul?			부산 - Busan, 에서 - from, 서울 - Seoul, 까지 - to, 얼마나 - how (much), 걸리다 - to take time												
+지금까지	until now	so far		지금 - now, 까지 - until												
+여기에서 저기까지	from here to there			여기 - here, 저기 - there												
+머리부터 발끝까지	from head to toe			머리 - head, 발끝 - the end of foot, tip of toes												
+아침부터 저녁까지	from morning until evening			아침 - morning, 저녁 - evening												
+지난 금요일부터	since last Friday			지난 - last, 금요일 - Friday, 부터 - from, since												
+내일 갈 거예요.	I'll go tomorrow.	I'm going to go tomorrow.		내일 - tomorrow, 가다 - to go, ㄹ 거예요 - the future tense ending												
+혼자 갈 거예요.	I'll go alone.	I'm going to go by myself.		혼자 - alone												
+뭐 할 거예요?	What are you going to do?	What will you do?		하다 - to do												
+이거 정말 할 거예요?	Are you really going to do it?			정말 - really												
+청바지 입을 거예요.	I'm going to wear blue jeans.			청바지 - blue jeans, 입다 - to wear												
+내일 뭐 입을 거예요?	What are you going to wear tomorrow?			내일 - tomorrow, 입다 - to wear												
+	약속에 좀 늦었다.	았/었/였		at/eot/yeot	s.	PAST TENSE	We were late for an appointment.	41889 | 0.93		6						
+저기서   먹는	저기서 밥을 먹는 사람이 민준이예요.	는		neun	e.r.	RELATIVE, PRESENT	The person who is eating over there is Minjun.	26943 | 0.93		12						
+게 here can be seen as noun counter	집을 짓는 게 쉬운(쉽다) 일이 아닐 거예요.	집		jip	n.	house	It won’t be easy to build a house.	2314 | 0.67		88						
+다르다 = different 다른 사람 = different people  에게 = to 에게도 = also to 다른 사람에게도 = also to different people = also to others 이럴까 = 이렇다 + 까(question)	그가 다른 사람들에게도 이럴까 궁금해.  다른 = (different)	이렇다		ireotda	a.	be so, be like that	I wonder if he is like that with others.	2264 | 0.48		90						
+"아직 = yet, still 마십시오 = 말다  말다:    ""지"" được sử dụng để biểu thị một điều kiện hoặc một lý do."	아직 추우니 밖에 나오지 마십시오.	나오다		naoda	v.	come out, exit	Please don’t come out, because it is still cold.	2185 | 0.72		93						
+여러가지로  걸   면:	직장 근처에 살면 여러가지로 편할 걸.	살다		salda	v.	live	It will be convenient in many ways to live close to work.	2122 | 0.71		94						
+	그때는 좋은 학교에 가라는 부모님이 싫었어요.	라는/으라는		raneun/euraneun	e.r.	RELATIVE, QUOT.	Back then, I hated my parents who kept asking me to go to a good school.	2113 | 0.94		95						
+신제품 = tân chế phẩm = new product 질 = chất = chất lượng = quality	신제품의 질이 아주 좋아.	좋다		jota	a.	good	The quality of the new product is really good.	2093 | 0.71		96						
+	나는 영화는 좋아하지만 공포 영화는 싫어한다.	지만		jiman	e.	CONNECTIVE, but, however	I like movies but not horror movies.	2085 | 0.98		97						
+이따가 a little later; a short time later	이따가 커피나 녹차를 마실 거예요.	나/이나	1	na/ina	p.conj.	or	I will drink coffee or green tea later.	2083 | 0.93		98						
+러:     실래요:	서현 씨, 내일 영화 보러 가실래요?	씨	1	ssi	n.b.	Mr, Ms; REFERENCE	Seoyeon, do you want to go to the movies tomorrow?	2063 | 0.77		100						
+정말 = really 보였다 = 보이 + 었다 = be looked	결혼식에서 두 사람이 정말 행복해 보였다.	두	1	du	adn.	two	The two people looked s. happy at the wedding ceremony.	2042 | 0.78		101						
+"다고 usually goes with 던데 it seems.    ""다고"" trong câu ""겨울에는 춥다고 하던데"" được sử dụng để truyền đạt thông tin hoặc ý kiến mà người nói đã nghe hoặc biết từ người khác.  ""던데"" trong câu ""겨울에는 춥다고 하던데."" có nghĩa là ""nghe nói"", ""nghe nói là"". Đây là một cách sử dụng phổ biến trong tiếng Hàn để truyền đạt thông tin mà người nói đã nghe được từ người khác."	겨울에는 춥다고 하던데.	다고	1	dago	e.	CONNECTIVE, QUOT.	They say that it is cold in winter.	2039 | 0.93		102						
+	어머니께서 선물을 받고 기뻐하시더라.	받다		batda	v.	receive	My mother was pleased to receive the gift.	2014 | 0.90		103						
+	아침에 뭘 먹어요?	먹다	1	meokda	v.	eat	What do you eat in the morning?	1993 | 0.55		104						
+주장 (=claim) 보여준다 = 보이(+여) bold 준다 next	이는 우리의 주장이 맞다는 것을 보여준다.	이	2	i	pron.	this	This shows that our argument is right.	1926 | 0.93		107						
+ㄷ연휴 = liên hưu = holidays (more than two days) 덜 = less 때문에 = because (of), because  막혀 = be jammed (for cars to not run easily because there are many cars on the road.)	연휴 때문에 교통이 덜 막혀.	때문		ttaemun	n.b.	because (of), because …	Because of the holidays, the traffic is less busy.	1890 | 0.96		108						
+켰지 = 켜다 = play (spin thread) nghe như kéo 어려다 = young 부터 = since/ from/ từ	그는 어려서부터 바이올린을 잘 켰지.	잘		jal	adv.	well	He has played the violin well since his youth.	1844 | 0.63		109						
+29	팔					pal	arm / eight (sino-korean)		八	1	"https://ko.dict.naver.com/#/search?range=all&query=팔"	"https://korean.dict.naver.com/koendict/#/search?range=all&query=팔"	https://dic.daum.net/search.do?q=팔	https://krdict.korean.go.kr/eng/dicSearch/search?nation=eng&nationCode=6&ParaWordNo=&mainSearchWord=팔		
+33	천				천ː	chon	thousand (sino-korean)		千	1	"https://ko.dict.naver.com/#/search?range=all&query=천"	"https://korean.dict.naver.com/koendict/#/search?range=all&query=천"	https://dic.daum.net/search.do?q=천	https://krdict.korean.go.kr/eng/dicSearch/search?nation=eng&nationCode=6&ParaWordNo=&mainSearchWord=천		
+오늘이 며칠이에요?	What's the date today?		오늘	today												
+내일 날씨는 어떨까요?	What's the weather going to be like tomorrow?		내일	tomorrow / days to come; future												
+오늘은 별로 안 추워요.	It's not that cold today.		안	inside / not												
+갑자기 친구의 이름이 기억나지 않았어요.	Suddenly, I couldn't remember my friend's name.		기억	memory												
+집 안을 여기저기 깨끗하게 청소하세요.	Clean the house clean here and there.	청소하다 (verb) 깨끗하다 (adj) 깨끗하게 (adv)	청소	cleaning												
+저는 노래를 잘하는 사람이 부러워요.	I envy people who can sing well.		노래	song; music; singing												
+73	인정	I'll admit I was wrong.		人情 = nhân tình		injong	human feelings; human nature; humanity / recognition; acknowledgment		人情 / 認定	2	"https://ko.dict.naver.com/#/search?range=all&query=인정"	"https://korean.dict.naver.com/koendict/#/search?range=all&query=인정"	https://dic.daum.net/search.do?q=인정	https://krdict.korean.go.kr/eng/dicSearch/search?nation=eng&nationCode=6&ParaWordNo=&mainSearchWord=인정		
+우리 가족은 아침마다 운동을 합니다.	My family exercises every morning.	마다:	운동	exercise												
+요시코 씨는 수업 시간에 말을 너무 많이 해서 시끄러워요.	Mr. Yoshiko is noisy because he talks too much in class.		말	speech; words / end / horse												
+안나 씨는 생각도 깊고 마음도 넓어요.	Anna is thoughtful and broad-minded.	thoughtful and tolerant (broad-minded).	생각	thought												
+가: 저기 의자에 앉아 있는 분이 누구예요? 나: 누구요? 아, 폴 씨예요. 호주 사람이에요.	Who's sitting on the chair over there? Me: Who? Oh, it's Paul. I'm Australian.		누구	who												
+81	여보세요	여보세요, 거기 김 선생님 댁이지요?	Hello, is that Mr. Kim's house?			yoboseyo	hello			1	"https://ko.dict.naver.com/#/search?range=all&query=여보세요"	"https://korean.dict.naver.com/koendict/#/search?range=all&query=여보세요"	https://dic.daum.net/search.do?q=여보세요	https://krdict.korean.go.kr/eng/dicSearch/search?nation=eng&nationCode=6&ParaWordNo=&mainSearchWord=여보세요	yoboseyo gogi gim sonsaengnim daegijiyo	
+83	얼마	가: 아주머니, 이거 얼마예요? 아주머니: 5,000 원이에요.	Ma'am, how much is this? Madam: It's 5,000 won.			olma	how much; what number; what price			1	"https://ko.dict.naver.com/#/search?range=all&query=얼마"	"https://korean.dict.naver.com/koendict/#/search?range=all&query=얼마"	https://dic.daum.net/search.do?q=얼마	https://krdict.korean.go.kr/eng/dicSearch/search?nation=eng&nationCode=6&ParaWordNo=&mainSearchWord=얼마	ga ajumoni igo olmaeyo ajumoni o gonggonggong wonieyo	
+92	저기	저기 강이 보이네요.	I can see the river over there.			jogi	that place / um; uh; erm			1 / 2	"https://ko.dict.naver.com/#/search?range=all&query=저기"	"https://korean.dict.naver.com/koendict/#/search?range=all&query=저기"	https://dic.daum.net/search.do?q=저기	https://krdict.korean.go.kr/eng/dicSearch/search?nation=eng&nationCode=6&ParaWordNo=&mainSearchWord=저기	jogi gangi boineyo	
+96	시간	왕위 씨는 시간이 있을 때마다 책을 읽습니다.	Mr. Wangwie reads whenever he has time.			sigan	time / hour		時間	1	"https://ko.dict.naver.com/#/search?range=all&query=시간"	"https://korean.dict.naver.com/koendict/#/search?range=all&query=시간"	https://dic.daum.net/search.do?q=시간	https://krdict.korean.go.kr/eng/dicSearch/search?nation=eng&nationCode=6&ParaWordNo=&mainSearchWord=시간	wangwi ssineun sigani isseul ttaemada chaegeul iksseumnida	
+97	재미	저는 친구들과 놀 때 가장 재미있습니다.	I have the most fun when I hang out with my friends.			jaemi	fun; interest			1	"https://ko.dict.naver.com/#/search?range=all&query=재미"	"https://korean.dict.naver.com/koendict/#/search?range=all&query=재미"	https://dic.daum.net/search.do?q=재미	https://krdict.korean.go.kr/eng/dicSearch/search?nation=eng&nationCode=6&ParaWordNo=&mainSearchWord=재미	joneun chingudeulgwa nol ttae gajang jaemiitsseumnida	
+사장: 박 과장, 무슨 일인가?  박 과장: 어제 회의 결과를 보고 드리러 왔습니다.  보고 (n) != 보다 (v)	Boss: Manager Park, what's going on? Manager Park: I'm here to report the results of yesterday's meeting.		보고	report												
+나는 동생을 때렸어요.	I hit my younger sibling.		때리다	to hit; beat; strike; smack; slap; punch												
+101	웃다				욷ː따	uttta	to smile			1	"https://ko.dict.naver.com/#/search?range=all&query=웃다"	"https://korean.dict.naver.com/koendict/#/search?range=all&query=웃다"	https://dic.daum.net/search.do?q=웃다	https://krdict.korean.go.kr/eng/dicSearch/search?nation=eng&nationCode=6&ParaWordNo=&mainSearchWord=웃다		
+103	적다	이 나라에는 일자리가 적다.	There are few jobs in this country.		적ː따	joktta	little; a little / to write; write down			1	"https://ko.dict.naver.com/#/search?range=all&query=적다"	"https://korean.dict.naver.com/koendict/#/search?range=all&query=적다"	https://dic.daum.net/search.do?q=적다	https://krdict.korean.go.kr/eng/dicSearch/search?nation=eng&nationCode=6&ParaWordNo=&mainSearchWord=적다		
+105	팔다				팔다	palda	to sell			1	"https://ko.dict.naver.com/#/search?range=all&query=팔다"	"https://korean.dict.naver.com/koendict/#/search?range=all&query=팔다"	https://dic.daum.net/search.do?q=팔다	https://krdict.korean.go.kr/eng/dicSearch/search?nation=eng&nationCode=6&ParaWordNo=&mainSearchWord=팔다		
+106	쓰다					sseuda	to use; work with; make use of / to write / bitter			1	"https://ko.dict.naver.com/#/search?range=all&query=쓰다"	"https://korean.dict.naver.com/koendict/#/search?range=all&query=쓰다"	https://dic.daum.net/search.do?q=쓰다	https://krdict.korean.go.kr/eng/dicSearch/search?nation=eng&nationCode=6&ParaWordNo=&mainSearchWord=쓰다		
+107	기다리다	그는 전화를 기다리고 있다.				gidarida	to wait			1	"https://ko.dict.naver.com/#/search?range=all&query=기다리다"	"https://korean.dict.naver.com/koendict/#/search?range=all&query=기다리다"	https://dic.daum.net/search.do?q=기다리다	https://krdict.korean.go.kr/eng/dicSearch/search?nation=eng&nationCode=6&ParaWordNo=&mainSearchWord=기다리다		
+108	멋있다	당신 참 멋있어요.			머싣따/머딛따	modittta	nice; stylish; elegant			1	"https://ko.dict.naver.com/#/search?range=all&query=멋있다"	"https://korean.dict.naver.com/koendict/#/search?range=all&query=멋있다"	https://dic.daum.net/search.do?q=멋있다	https://krdict.korean.go.kr/eng/dicSearch/search?nation=eng&nationCode=6&ParaWordNo=&mainSearchWord=멋있다		
+109	집	학교 끝나고 바로 집에 와요.	I come home right after school.			jip	house			1	"https://ko.dict.naver.com/#/search?range=all&query=집"	"https://korean.dict.naver.com/koendict/#/search?range=all&query=집"	https://dic.daum.net/search.do?q=집	https://krdict.korean.go.kr/eng/dicSearch/search?nation=eng&nationCode=6&ParaWordNo=&mainSearchWord=집	hakkkyo kkeunnago baro jibe wayo	
+110	사무실	제가 일하는 사무실은 종로에 있습니다.	The office where I work is in Jongno.		사ː무실	samusil	office; place of business; workplace		事務室	1	"https://ko.dict.naver.com/#/search?range=all&query=사무실"	"https://korean.dict.naver.com/koendict/#/search?range=all&query=사무실"	https://dic.daum.net/search.do?q=사무실	https://krdict.korean.go.kr/eng/dicSearch/search?nation=eng&nationCode=6&ParaWordNo=&mainSearchWord=사무실	jega ilhaneun samusireun jongnoe itsseumnida	
+112	버리다	나는 그것을 버리고 싶지 않다.	I don't want to throw it away.			borida	to throw away; dump			1	"https://ko.dict.naver.com/#/search?range=all&query=버리다"	"https://korean.dict.naver.com/koendict/#/search?range=all&query=버리다"	https://dic.daum.net/search.do?q=버리다	https://krdict.korean.go.kr/eng/dicSearch/search?nation=eng&nationCode=6&ParaWordNo=&mainSearchWord=버리다		
+113	아직	요시코 씨는 아직 자고 있어요?	Is Yoshiko still sleeping?			ajik	yet; still			1	"https://ko.dict.naver.com/#/search?range=all&query=아직"	"https://korean.dict.naver.com/koendict/#/search?range=all&query=아직"	https://dic.daum.net/search.do?q=아직	https://krdict.korean.go.kr/eng/dicSearch/search?nation=eng&nationCode=6&ParaWordNo=&mainSearchWord=아직	yosiko ssineun ajik jago issoyo	
+114	알다	당신은 그녀의 아버지를 알고 있나요?	Do you know her father?		알ː다	alda	to know; understand			1	"https://ko.dict.naver.com/#/search?range=all&query=알다"	"https://korean.dict.naver.com/koendict/#/search?range=all&query=알다"	https://dic.daum.net/search.do?q=알다	https://krdict.korean.go.kr/eng/dicSearch/search?nation=eng&nationCode=6&ParaWordNo=&mainSearchWord=알다		
+115	모르다	어디서부터 시작할지 잘 모르겠어.	I'm not sure where to start.		모ː르다	moreuda	to not know			1	"https://ko.dict.naver.com/#/search?range=all&query=모르다"	"https://korean.dict.naver.com/koendict/#/search?range=all&query=모르다"	https://dic.daum.net/search.do?q=모르다	https://krdict.korean.go.kr/eng/dicSearch/search?nation=eng&nationCode=6&ParaWordNo=&mainSearchWord=모르다		
+116	혼자	가: 가족하고 같이 사세요? 나: 아니요, 혼자 살아요.	Do you live with your family? Me: No, I live alone.			honja	being alone; being by oneself / alone			1	"https://ko.dict.naver.com/#/search?range=all&query=혼자"	"https://korean.dict.naver.com/koendict/#/search?range=all&query=혼자"	https://dic.daum.net/search.do?q=혼자	https://krdict.korean.go.kr/eng/dicSearch/search?nation=eng&nationCode=6&ParaWordNo=&mainSearchWord=혼자	ga gajokago gachi saseyo na aniyo honja sarayo	
+117	정말	그 말이 정말이에요?	Is that true?		정ː말	jongmal	fact / really		正말	1	"https://ko.dict.naver.com/#/search?range=all&query=정말"	"https://korean.dict.naver.com/koendict/#/search?range=all&query=정말"	https://dic.daum.net/search.do?q=정말	https://krdict.korean.go.kr/eng/dicSearch/search?nation=eng&nationCode=6&ParaWordNo=&mainSearchWord=정말	geu mari jongmarieyo	
+120	치마	요즘에는 짧은 치마가 유행이에요.	Short skirts are in fashion these days.			chima	skirt			1	"https://ko.dict.naver.com/#/search?range=all&query=치마"	"https://korean.dict.naver.com/koendict/#/search?range=all&query=치마"	https://dic.daum.net/search.do?q=치마	https://krdict.korean.go.kr/eng/dicSearch/search?nation=eng&nationCode=6&ParaWordNo=&mainSearchWord=치마	yojeumeneun jjalbeun chimaga yuhaengieyo	
+121	입다				입따	iptta	to wear; be dressed; put on			1	"https://ko.dict.naver.com/#/search?range=all&query=입다"	"https://korean.dict.naver.com/koendict/#/search?range=all&query=입다"	https://dic.daum.net/search.do?q=입다	https://krdict.korean.go.kr/eng/dicSearch/search?nation=eng&nationCode=6&ParaWordNo=&mainSearchWord=입다		
+122	만나다					mannada	to meet; join			1	"https://ko.dict.naver.com/#/search?range=all&query=만나다"	"https://korean.dict.naver.com/koendict/#/search?range=all&query=만나다"	https://dic.daum.net/search.do?q=만나다	https://krdict.korean.go.kr/eng/dicSearch/search?nation=eng&nationCode=6&ParaWordNo=&mainSearchWord=만나다		
+123	일주일	리에 씨는 일주일 동안 휴가를 갈 거예요.	Mr. Rie is going on vacation for a week.		일쭈일	iljuil	one week; a week		一週日	1	"https://ko.dict.naver.com/#/search?range=all&query=일주일"	"https://korean.dict.naver.com/koendict/#/search?range=all&query=일주일"	https://dic.daum.net/search.do?q=일주일	https://krdict.korean.go.kr/eng/dicSearch/search?nation=eng&nationCode=6&ParaWordNo=&mainSearchWord=일주일	rie ssineun iljuil dongan hyugareul gal goeyo	
+124	몇	여기에서 학교까지 몇 분 걸려요?	How many minutes does it take from here to school?		멷	myot	some; several			1	"https://ko.dict.naver.com/#/search?range=all&query=몇"	"https://korean.dict.naver.com/koendict/#/search?range=all&query=몇"	https://dic.daum.net/search.do?q=몇	https://krdict.korean.go.kr/eng/dicSearch/search?nation=eng&nationCode=6&ParaWordNo=&mainSearchWord=몇	yogieso hakkkyokkaji myot bun golryoyo	
+125	그리고					geurigo	and			1	"https://ko.dict.naver.com/#/search?range=all&query=그리고"	"https://korean.dict.naver.com/koendict/#/search?range=all&query=그리고"	https://dic.daum.net/search.do?q=그리고	https://krdict.korean.go.kr/eng/dicSearch/search?nation=eng&nationCode=6&ParaWordNo=&mainSearchWord=그리고		
+126	그래서					geuraeso	so; therefore				"https://ko.dict.naver.com/#/search?range=all&query=그래서"	"https://korean.dict.naver.com/koendict/#/search?range=all&query=그래서"	https://dic.daum.net/search.do?q=그래서	https://krdict.korean.go.kr/eng/dicSearch/search?nation=eng&nationCode=6&ParaWordNo=&mainSearchWord=그래서		
+127	맛있다				마싣따/마딛따	madittta	tasty; delicious			1	"https://ko.dict.naver.com/#/search?range=all&query=맛있다"	"https://korean.dict.naver.com/koendict/#/search?range=all&query=맛있다"	https://dic.daum.net/search.do?q=맛있다	https://krdict.korean.go.kr/eng/dicSearch/search?nation=eng&nationCode=6&ParaWordNo=&mainSearchWord=맛있다		
+128	음식	가: 어느 나라 음식을 제일 좋아해요? 가: 저는 한국 음식을 제일 좋아해요.	Which country's food do you like the most? G: I like Korean food the most.		음ː식	eumsik	food		飮食	1	"https://ko.dict.naver.com/#/search?range=all&query=음식"	"https://korean.dict.naver.com/koendict/#/search?range=all&query=음식"	https://dic.daum.net/search.do?q=음식	https://krdict.korean.go.kr/eng/dicSearch/search?nation=eng&nationCode=6&ParaWordNo=&mainSearchWord=음식	ga oneu nara eumsigeul jeil joahaeyo ga joneun hanguk eumsigeul jeil joahaeyo	
+129	돈	요즘은 선물 대신 돈을 주는 사람도 많아요.	There are many people who give money instead of gifts these days.		돈ː	don	money			1	"https://ko.dict.naver.com/#/search?range=all&query=돈"	"https://korean.dict.naver.com/koendict/#/search?range=all&query=돈"	https://dic.daum.net/search.do?q=돈	https://krdict.korean.go.kr/eng/dicSearch/search?nation=eng&nationCode=6&ParaWordNo=&mainSearchWord=돈	yojeumeun sonmul daesin doneul juneun saramdo manayo	
+130	많이	올가 씨는 백화점에 가서 물건을 많이 샀어요.	Olga went to the department store and bought a lot of things.		마ː니	mani	much; in large numbers; in large amounts			1	"https://ko.dict.naver.com/#/search?range=all&query=많이"	"https://korean.dict.naver.com/koendict/#/search?range=all&query=많이"	https://dic.daum.net/search.do?q=많이	https://krdict.korean.go.kr/eng/dicSearch/search?nation=eng&nationCode=6&ParaWordNo=&mainSearchWord=많이	olga ssineun baekwajome gaso mulgoneul mani sassoyo	
+131	빵	저는 아침에 보통 빵을 먹어요.	I usually eat bread in the morning.			ppang	bread			1	"https://ko.dict.naver.com/#/search?range=all&query=빵"	"https://korean.dict.naver.com/koendict/#/search?range=all&query=빵"	https://dic.daum.net/search.do?q=빵	https://krdict.korean.go.kr/eng/dicSearch/search?nation=eng&nationCode=6&ParaWordNo=&mainSearchWord=빵	joneun achime botong ppangeul mogoyo	
+132	숫자	좋아하는 숫자를 한 개 고르세요.	Choose one number you like.		숟ː짜/수ː짜	sutjja	number; figure		數字	1	"https://ko.dict.naver.com/#/search?range=all&query=숫자"	"https://korean.dict.naver.com/koendict/#/search?range=all&query=숫자"	https://dic.daum.net/search.do?q=숫자	https://krdict.korean.go.kr/eng/dicSearch/search?nation=eng&nationCode=6&ParaWordNo=&mainSearchWord=숫자	joahaneun sutjjareul han gae goreuseyo	
+133	월요일				워료일	woryoil	Monday		月曜日	1	"https://ko.dict.naver.com/#/search?range=all&query=월요일"	"https://korean.dict.naver.com/koendict/#/search?range=all&query=월요일"	https://dic.daum.net/search.do?q=월요일	https://krdict.korean.go.kr/eng/dicSearch/search?nation=eng&nationCode=6&ParaWordNo=&mainSearchWord=월요일		
+134	화요일					hwayoil	Tuesday		火曜日	1	"https://ko.dict.naver.com/#/search?range=all&query=화요일"	"https://korean.dict.naver.com/koendict/#/search?range=all&query=화요일"	https://dic.daum.net/search.do?q=화요일	https://krdict.korean.go.kr/eng/dicSearch/search?nation=eng&nationCode=6&ParaWordNo=&mainSearchWord=화요일		
+135	수요일					suyoil	Wednesday		水曜日	1	"https://ko.dict.naver.com/#/search?range=all&query=수요일"	"https://korean.dict.naver.com/koendict/#/search?range=all&query=수요일"	https://dic.daum.net/search.do?q=수요일	https://krdict.korean.go.kr/eng/dicSearch/search?nation=eng&nationCode=6&ParaWordNo=&mainSearchWord=수요일		
+136	목요일					mogyoil	Thursday		木曜日	1	"https://ko.dict.naver.com/#/search?range=all&query=목요일"	"https://korean.dict.naver.com/koendict/#/search?range=all&query=목요일"	https://dic.daum.net/search.do?q=목요일	https://krdict.korean.go.kr/eng/dicSearch/search?nation=eng&nationCode=6&ParaWordNo=&mainSearchWord=목요일		
+137	금요일					geumyoil	Friday		金曜日	1	"https://ko.dict.naver.com/#/search?range=all&query=금요일"	"https://korean.dict.naver.com/koendict/#/search?range=all&query=금요일"	https://dic.daum.net/search.do?q=금요일	https://krdict.korean.go.kr/eng/dicSearch/search?nation=eng&nationCode=6&ParaWordNo=&mainSearchWord=금요일		
+138	토요일					toyoil	Saturday		土曜日	1	"https://ko.dict.naver.com/#/search?range=all&query=토요일"	"https://korean.dict.naver.com/koendict/#/search?range=all&query=토요일"	https://dic.daum.net/search.do?q=토요일	https://krdict.korean.go.kr/eng/dicSearch/search?nation=eng&nationCode=6&ParaWordNo=&mainSearchWord=토요일		
+139	일요일					iryoil	Sunday		日曜日	1	"https://ko.dict.naver.com/#/search?range=all&query=일요일"	"https://korean.dict.naver.com/koendict/#/search?range=all&query=일요일"	https://dic.daum.net/search.do?q=일요일	https://krdict.korean.go.kr/eng/dicSearch/search?nation=eng&nationCode=6&ParaWordNo=&mainSearchWord=일요일		
+140	같이	영화를 보러 가는데 같이 갑시다.	Let's go to the movies together.		가치	gachi	together			1	"https://ko.dict.naver.com/#/search?range=all&query=같이"	"https://korean.dict.naver.com/koendict/#/search?range=all&query=같이"	https://dic.daum.net/search.do?q=같이	https://krdict.korean.go.kr/eng/dicSearch/search?nation=eng&nationCode=6&ParaWordNo=&mainSearchWord=같이	yonghwareul boro ganeunde gachi gapssida	
+141	그런데					geuronde	by the way				"https://ko.dict.naver.com/#/search?range=all&query=그런데"	"https://korean.dict.naver.com/koendict/#/search?range=all&query=그런데"	https://dic.daum.net/search.do?q=그런데	https://krdict.korean.go.kr/eng/dicSearch/search?nation=eng&nationCode=6&ParaWordNo=&mainSearchWord=그런데		
+142	그렇지만				그러치만	geurochiman	but; however; nevertheless			1	"https://ko.dict.naver.com/#/search?range=all&query=그렇지만"	"https://korean.dict.naver.com/koendict/#/search?range=all&query=그렇지만"	https://dic.daum.net/search.do?q=그렇지만	https://krdict.korean.go.kr/eng/dicSearch/search?nation=eng&nationCode=6&ParaWordNo=&mainSearchWord=그렇지만		
+143	매일	피터 씨는 매일 일기를 씁니다.	Mr. Peter keeps a diary every day.		매ː일	maeil	everyday / every day; every single day		每日	1	"https://ko.dict.naver.com/#/search?range=all&query=매일"	"https://korean.dict.naver.com/koendict/#/search?range=all&query=매일"	https://dic.daum.net/search.do?q=매일	https://krdict.korean.go.kr/eng/dicSearch/search?nation=eng&nationCode=6&ParaWordNo=&mainSearchWord=매일	pito ssineun maeil ilgireul sseumnida	
+144	전혀	저는 고기는 전혀 안 먹어요.	I don't eat meat at all.			jonhyo	(not) at all; completely		全혀	1	"https://ko.dict.naver.com/#/search?range=all&query=전혀"	"https://korean.dict.naver.com/koendict/#/search?range=all&query=전혀"	https://dic.daum.net/search.do?q=전혀	https://krdict.korean.go.kr/eng/dicSearch/search?nation=eng&nationCode=6&ParaWordNo=&mainSearchWord=전혀	joneun gogineun jonhyo an mogoyo	
+145	시험	시험 문제가 너무 어려워서 힘들었어요.	The exam questions were so difficult that it was hard.			sihom	test; exam		試驗	1	"https://ko.dict.naver.com/#/search?range=all&query=시험"	"https://korean.dict.naver.com/koendict/#/search?range=all&query=시험"	https://dic.daum.net/search.do?q=시험	https://krdict.korean.go.kr/eng/dicSearch/search?nation=eng&nationCode=6&ParaWordNo=&mainSearchWord=시험	sihom munjega nomu oryowoso himdeurossoyo	
+146	멀쩡하다					moljjonghada	uninjured; unwounded			2	"https://ko.dict.naver.com/#/search?range=all&query=멀쩡하다"	"https://korean.dict.naver.com/koendict/#/search?range=all&query=멀쩡하다"	https://dic.daum.net/search.do?q=멀쩡하다	https://krdict.korean.go.kr/eng/dicSearch/search?nation=eng&nationCode=6&ParaWordNo=&mainSearchWord=멀쩡하다		
+147	졸리다				졸ː리다	jolrida	to feel drowsy			2	"https://ko.dict.naver.com/#/search?range=all&query=졸리다"	"https://korean.dict.naver.com/koendict/#/search?range=all&query=졸리다"	https://dic.daum.net/search.do?q=졸리다	https://krdict.korean.go.kr/eng/dicSearch/search?nation=eng&nationCode=6&ParaWordNo=&mainSearchWord=졸리다		
+148	애인				애ː인	aein	lover; one's beloved		愛人	1	"https://ko.dict.naver.com/#/search?range=all&query=애인"	"https://korean.dict.naver.com/koendict/#/search?range=all&query=애인"	https://dic.daum.net/search.do?q=애인	https://krdict.korean.go.kr/eng/dicSearch/search?nation=eng&nationCode=6&ParaWordNo=&mainSearchWord=애인		
+149	물다					mulda	to hold with one's lips or teeth			2	"https://ko.dict.naver.com/#/search?range=all&query=물다"	"https://korean.dict.naver.com/koendict/#/search?range=all&query=물다"	https://dic.daum.net/search.do?q=물다	https://krdict.korean.go.kr/eng/dicSearch/search?nation=eng&nationCode=6&ParaWordNo=&mainSearchWord=물다		
+150	맞다				맏따	mattta	to be correct / to receive / to be beaten; be hit				"https://ko.dict.naver.com/#/search?range=all&query=맞다"	"https://korean.dict.naver.com/koendict/#/search?range=all&query=맞다"	https://dic.daum.net/search.do?q=맞다	https://krdict.korean.go.kr/eng/dicSearch/search?nation=eng&nationCode=6&ParaWordNo=&mainSearchWord=맞다		
+151	차다					chada	to be full / to kick / to wear			1	"https://ko.dict.naver.com/#/search?range=all&query=차다"	"https://korean.dict.naver.com/koendict/#/search?range=all&query=차다"	https://dic.daum.net/search.do?q=차다	https://krdict.korean.go.kr/eng/dicSearch/search?nation=eng&nationCode=6&ParaWordNo=&mainSearchWord=차다		
+152	풍기다					punggida	to smell; give off			2	"https://ko.dict.naver.com/#/search?range=all&query=풍기다"	"https://korean.dict.naver.com/koendict/#/search?range=all&query=풍기다"	https://dic.daum.net/search.do?q=풍기다	https://krdict.korean.go.kr/eng/dicSearch/search?nation=eng&nationCode=6&ParaWordNo=&mainSearchWord=풍기다		
+153	전	지금 세 시 10분 전입니다.	It's ten minutes to three.			jon	past / all / former		前 / 全	1	"https://ko.dict.naver.com/#/search?range=all&query=전"	"https://korean.dict.naver.com/koendict/#/search?range=all&query=전"	https://dic.daum.net/search.do?q=전	https://krdict.korean.go.kr/eng/dicSearch/search?nation=eng&nationCode=6&ParaWordNo=&mainSearchWord=전	jigeum se si sip bun jonimnida	
+154	받다				받따	battta	to receive; get			1	"https://ko.dict.naver.com/#/search?range=all&query=받다"	"https://korean.dict.naver.com/koendict/#/search?range=all&query=받다"	https://dic.daum.net/search.do?q=받다	https://krdict.korean.go.kr/eng/dicSearch/search?nation=eng&nationCode=6&ParaWordNo=&mainSearchWord=받다		
+155	얻다				얻ː따	ottta	to get; receive			1	"https://ko.dict.naver.com/#/search?range=all&query=얻다"	"https://korean.dict.naver.com/koendict/#/search?range=all&query=얻다"	https://dic.daum.net/search.do?q=얻다	https://krdict.korean.go.kr/eng/dicSearch/search?nation=eng&nationCode=6&ParaWordNo=&mainSearchWord=얻다		
+156	동생	제 동생은 운동을 잘하는데 저는 못해요.	My brother is good at sports, but I can't.			dongsaeng	brother; sister		同生	1	"https://ko.dict.naver.com/#/search?range=all&query=동생"	"https://korean.dict.naver.com/koendict/#/search?range=all&query=동생"	https://dic.daum.net/search.do?q=동생	https://krdict.korean.go.kr/eng/dicSearch/search?nation=eng&nationCode=6&ParaWordNo=&mainSearchWord=동생	je dongsaengeun undongeul jalhaneunde joneun motaeyo	
+157	남동생	저는 남동생이 한 명, 여동생이 한 명 있어요.	I have a younger brother and a younger sister.			namdongsaeng	younger brother		男동생	1	"https://ko.dict.naver.com/#/search?range=all&query=남동생"	"https://korean.dict.naver.com/koendict/#/search?range=all&query=남동생"	https://dic.daum.net/search.do?q=남동생	https://krdict.korean.go.kr/eng/dicSearch/search?nation=eng&nationCode=6&ParaWordNo=&mainSearchWord=남동생	joneun namdongsaengi han myong yodongsaengi han myong issoyo	
+158	여동생	제 여동생은 대학생이고, 남동생은 고등학생이에요.	My younger sister is a college student and my younger brother is a high school student.			yodongsaeng	younger sister		女동생	1	"https://ko.dict.naver.com/#/search?range=all&query=여동생"	"https://korean.dict.naver.com/koendict/#/search?range=all&query=여동생"	https://dic.daum.net/search.do?q=여동생	https://krdict.korean.go.kr/eng/dicSearch/search?nation=eng&nationCode=6&ParaWordNo=&mainSearchWord=여동생	je yodongsaengeun daehakssaengigo namdongsaengeun godeunghakssaengieyo	
+159	혼나다			hồn (혼) 나다 (to appear)	혼나다	honnada	to struggle; have a hard time; be dying		魂나다	2	"https://ko.dict.naver.com/#/search?range=all&query=혼나다"	"https://korean.dict.naver.com/koendict/#/search?range=all&query=혼나다"	https://dic.daum.net/search.do?q=혼나다	https://krdict.korean.go.kr/eng/dicSearch/search?nation=eng&nationCode=6&ParaWordNo=&mainSearchWord=혼나다		
+160	수업	학교 수업이 끝나면 보통 뭐 하세요?	What do you usually do after school?			suop	class; lesson; course		授業		"https://ko.dict.naver.com/#/search?range=all&query=수업"	"https://korean.dict.naver.com/koendict/#/search?range=all&query=수업"	https://dic.daum.net/search.do?q=수업	https://krdict.korean.go.kr/eng/dicSearch/search?nation=eng&nationCode=6&ParaWordNo=&mainSearchWord=수업	hakkkyo suobi kkeunnamyon botong mwo haseyo	
+161	반	우리 반에는 중국 사람이 5명 있어요.	There are 5 Chinese in my class.		반ː	ban	group; party / half		半 / 班	1	"https://ko.dict.naver.com/#/search?range=all&query=반"	"https://korean.dict.naver.com/koendict/#/search?range=all&query=반"	https://dic.daum.net/search.do?q=반	https://krdict.korean.go.kr/eng/dicSearch/search?nation=eng&nationCode=6&ParaWordNo=&mainSearchWord=반	uri baneneun jungguk sarami o myong issoyo	
+162	시	지금 몇 시예요?	Do you have the time?		시ː	si	o'clock / time of birth / poem; poetry		市 / 時 / 詩	1 / 2	"https://ko.dict.naver.com/#/search?range=all&query=시"	"https://korean.dict.naver.com/koendict/#/search?range=all&query=시"	https://dic.daum.net/search.do?q=시	https://krdict.korean.go.kr/eng/dicSearch/search?nation=eng&nationCode=6&ParaWordNo=&mainSearchWord=시	jigeum myot sieyo	
+163	분	오늘 오후 3시 30분에 만납시다.	Let's meet at 3:30 p.m. today.			bun	minute		分	1	"https://ko.dict.naver.com/#/search?range=all&query=분"	"https://korean.dict.naver.com/koendict/#/search?range=all&query=분"	https://dic.daum.net/search.do?q=분	https://krdict.korean.go.kr/eng/dicSearch/search?nation=eng&nationCode=6&ParaWordNo=&mainSearchWord=분	oneul ohu sam si samsip bune mannapssida	
+164	지하철	길이 복잡한 시간에는 지하철을 타세요.	Take the subway at a time when the roads are crowded.			jihachol	subway		地下鐵	1	"https://ko.dict.naver.com/#/search?range=all&query=지하철"	"https://korean.dict.naver.com/koendict/#/search?range=all&query=지하철"	https://dic.daum.net/search.do?q=지하철	https://krdict.korean.go.kr/eng/dicSearch/search?nation=eng&nationCode=6&ParaWordNo=&mainSearchWord=지하철	giri bokjjapan siganeneun jihachoreul taseyo	
+165	한	집에서 학교까지 한 30분쯤 걸려요.	It takes about 30 minutes from my house to school.		한ː	han	one / limit; end; bound		限 / 恨	1 / 2	"https://ko.dict.naver.com/#/search?range=all&query=한"	"https://korean.dict.naver.com/koendict/#/search?range=all&query=한"	https://dic.daum.net/search.do?q=한	https://krdict.korean.go.kr/eng/dicSearch/search?nation=eng&nationCode=6&ParaWordNo=&mainSearchWord=한	jibeso hakkkyokkaji han samsip bunjjeum golryoyo	
+166	세				세ː	se	three		歲	1	"https://ko.dict.naver.com/#/search?range=all&query=세"	"https://korean.dict.naver.com/koendict/#/search?range=all&query=세"	https://dic.daum.net/search.do?q=세	https://krdict.korean.go.kr/eng/dicSearch/search?nation=eng&nationCode=6&ParaWordNo=&mainSearchWord=세		
+167	끝나다				끈나다	kkeunnada	to end; finish			1	"https://ko.dict.naver.com/#/search?range=all&query=끝나다"	"https://korean.dict.naver.com/koendict/#/search?range=all&query=끝나다"	https://dic.daum.net/search.do?q=끝나다	https://krdict.korean.go.kr/eng/dicSearch/search?nation=eng&nationCode=6&ParaWordNo=&mainSearchWord=끝나다		
+168	보통	올가 씨는 보통 때와 다른 옷을 입고 약속 장소에 나갔어요.	Mr. Olga went out to the appointment dressed differently than usual.		보ː통	botong	being ordinary; being average / usually; in general		普通	1	"https://ko.dict.naver.com/#/search?range=all&query=보통"	"https://korean.dict.naver.com/koendict/#/search?range=all&query=보통"	https://dic.daum.net/search.do?q=보통	https://krdict.korean.go.kr/eng/dicSearch/search?nation=eng&nationCode=6&ParaWordNo=&mainSearchWord=보통	olga ssineun botong ttaewa dareun oseul ipkko yakssok jangsoe nagassoyo	
+169	개	저는 개를 아주 좋아해서 3마리나 길러요.	I like dogs so much that I raise 3 dogs.		개ː	gae	dog		個/箇/介	1	"https://ko.dict.naver.com/#/search?range=all&query=개"	"https://korean.dict.naver.com/koendict/#/search?range=all&query=개"	https://dic.daum.net/search.do?q=개	https://krdict.korean.go.kr/eng/dicSearch/search?nation=eng&nationCode=6&ParaWordNo=&mainSearchWord=개	joneun gaereul aju joahaeso sam marina gilroyo	
+170	명				명	myong	person / name		名	1 / 2	"https://ko.dict.naver.com/#/search?range=all&query=명"	"https://korean.dict.naver.com/koendict/#/search?range=all&query=명"	https://dic.daum.net/search.do?q=명	https://krdict.korean.go.kr/eng/dicSearch/search?nation=eng&nationCode=6&ParaWordNo=&mainSearchWord=명		
+진짜 짐 싸느라 너무 힘들었다	It was really hard to pack		힘들다	힘들다 ★★★★★ Adj Pron:   1. difficult 2. tired  싸느라 to pack												
+오늘은 이만 가게 문 닫으려고요	Cô đóng cửa tiệm rồi.		닫다	shut close the door close one's business; go out of business close												
+그, 따님만의 어떤 뭐 특별한 특징이 뭐가 있을까요?	Does your daughter have any distinctive characteristic?  Literal: What is the distinctive characteristic your daughter's is. Your daughter  distincetive characteristic		특별													
+- 더 바랄 게 없어	I dont wish for more		바라다, 바랄													
+내 전 재산	All of my property		재산													
+뭔가 진실이 느껴지지 않나요?	Cant you sense the truth behind them?  Literal: Any truth to be felt can't?		진실						not this grammar in the sentence above but worth mentioning 지							
+그때 나는 여행 다니며 사진 찍는 게 꿈이었다	I've always wanted to travel the world, you know, taking photos and all that.	"꿈: dream, wish  며 here is for listing two similar things. going around and taking photo.  similar use to 고 in this case.     ""게"" được sử dụng để chỉ một hành động hoặc một việc gì đó mà người nói muốn thực hiện hoặc đang nghĩ đến."	꾸다, 꿈	dream												
+오늘은 비가 왔어요. 그래서 집에 있었어요.	today rain so i stay at home															
+누구랑 갔어요?	Who did you go with?															
+너한테서 풍기는 암내가 진국이에요.	= Your armpit smell is terrible. Direct: The smell given from armpit from you is very strong From you - gave of a smell - armpit - is very strong 풍기다 [pung-gi-da] = give off a smell  암내 [am-nae] = armpit smell  진국이다 [jin-guk-i-da] = to be very strong, to be very hardcore, to be superb	풍기는 = 풍기다 + 는 (change verb to describe a noun in past tense)														
+다 먹고 세 개 남았어요.	I ate everything and there are three left. 다 [da] = all  남다 [nam-da] = to remain, to be left															
+소희는 생각해요 나도 동생이 있었으면 좋겠어요.	Sohee thinks, I wish I had a younger sibling too.	으면 : if														
+10월에 동생이 태어날 거야.	My younger sibling will be born in October.	우리 가족  소희는 7살이에요.  소희 가족은 아빠 엄마,<br>그리고 소희 이렇게 세 명이에요.  소희는 언니가 없어요.  오빠도 없어요.  소희는 외동딸이에요.  소희의 친구는 동생이 있어요.<br>소희는 생각해요  나도 동생이 있었으면 좋겠어요.  오늘 저녁에 엄마 아빠가 소희한테 말했어요.  10월에 동생이 태어날 거야.  소희는 정말 기뻐요.  소희는 빨리 동생을 만나고 싶어요.  저는 7살이에요.  우리 가족은 아빠 엄마 그리고 저<br>이렇게 셋이에요.  저는 누나가 없어요.  형도 없어요.  저는 외동아들이에요.  제 친구는 동생이 있어요.  저도 동생이 있었으면 좋겠어요.  오늘 저녁에 엄마 아빠가 저에게<br>말했어요.  10월에 동생이 태어날 거야.  저는 너무 기뻐요.  저는 얼른 동생을 만나고 싶어요.  소희는 몇 살이에요?  소희는 7살이에요.  소희의 가족은 몇 명이에요?  소희의 가족은 모두 3명이에요.  소희는 언니가 있어요?  아니요, 소희는 언니가 없어요.<br>오빠도 없어요.  소희는 동생이 있어요?  아니요, 동생이 없어요. 소희는<br>외동딸이에요.  소희의 친구는 동생이 있어요?  네, 소희의 친구는 동생이 있어요.  소희는 왜 기뻐요?  소희도 동생이 생길 거예요. 그래서<br>기뻐요.  소희의 동생은 언제 태어날 거예요?  10월에 태어날 거예요.  소희는 빨리 동생을 만나고 싶어 해요?  네, 소희는<br>얼른 동생을 만나고 싶어 해요.	태어날, 태어나다	be born												
+웃긴 애들 너무 많아	People are hilarious nowadays Actually: So many funny kids nowadays	is different from	애들	kids												
+내가 촬영해서 편집해서 업로드 딱!	You play the piano and sing I film, edit and upload		촬영해서 편집해서 업로드	촬영: toát ảnh / shoot/ film    편집: biên tập/ edit  업로드: upload												
+오늘은 날씨가 좀 흐린데요 비가 오려나 봐요	Its a bit cloudy today Maybe it’ll rain	데요 = để(데) cho em được tự do (요) (trình bày hoàn cảnh)	ㄴ데	날씨 = weather ㄴ데, ㄴ데 =												
+왜 내가 꼭 말을 해야 하죠?	Why do I have to tell you?	죠 = 지요 V+지요: (informal addressee-raising) A sentence-final ending used when the speaker asks the listener in a friendly manner.	해야 하죠 / 해야 하다													
+이건 옳은 일이 아닌 듯 싶네요	I dont think this is a right thing to do.	왜 내가 꼭 말을 해야 하죠  이건 옳은 일이 아닌 듯 싶네요  좋아요  그럼 그녀는 어떻게 생겼나요  왜 이런 질문들을 하는 거에요  그녀의 외모는 어떤가요  키가 크나요 작나요	싶네요	싶네요: An auxiliary adjective used to indicate what the preceding statement describes is the speaker's impression or thought. In short: helper adj to describe what said previously is the speaker thought 옳다: Right, not wrong. 듯:  A bound noun used to indicate one's guess or assumption. 듯 싶네요: it seems, i think												
+형이 널 굉장히 아끼잖니?	Chanyoung You know I care about you so much, dont you?	잖니 = isn't it? / aren't it? / doesn't it? 굉장 = hoành tráng	아끼다, 아끼	아끼다 = care (in this context)												
+방학 잘 보내십시오	Have a nice vacation	related with:														
+그래서 6 일부터 8 일까지 쉽니다	So I'm off from the 6th to the 8th.	부터 = from 까지 = until														
+진짜예요? 인터넷이 안 돼요?	Are you serious? You have no internet?		진짜	【진짜】진짜 ★★★★★ 1.  authentic 2.  genuinely; really												
+나 둘 다 친해요	I'm close with them.		친하다	【친하다】친하다 ★★★★★ close												
+그럼 나 혼자 있으라고, 여기?	Will I be alone here?		그렇다, 그럼	【그렇다】그러타 ★★★★★ 1.  so; as such; like that 2.  same 3.  so so  【그럼】그럼 1.  if so; in that case 2.  then 3.  of course												
+[놀라며] 이거 어디서 샀대?	Where did he get these?		놀라다	【놀라다】놀ː라다 ★★★★★ 1.  be surprised; be astonished; be shocked; be scared 2.  be impressed; be moved 3.  be dumbfounded 4.  convulse												
+그, 그것도 다 주시오	I'll take them all, too.		그다, 그	【그】그 ★★★★★ 1.  that 2.  that; the 3.  that 4.  uh; um; er; erm												
+저렇게 있으면 안 되는데	It shouldn't be like that.		저렇다, 저렇게	【저렇다】저러타 ★★★★★ that; like that  저렇게 ★★★★★ jeoreoke												
+- 예? -  귀걸이, 백, 구두	-Pardon me? -The earrings, purse, and shoes.		예다, 예	【예】예ː ★★★★★ 1.  old times 2.  yes sir; yes ma'am 3.  yes sir; yes ma'am 4.  yes sir; yes ma'am 5.  please 6.  example												
+형이나 잘해, 이, 씨	Mind your own business.		이다, 이나	【이다】이다 ★★★★★ put on the head  이나 ★★★★ 1.  ina 2.  ina 3.  ina 4.  ina 5.  ina 6.  ina 7.  ina 8.  ina												
+이렇게 술 마셔도 됩니까?	Can I drink like this?		이렇다, 이렇게	【이렇다】이러타 ★★★★★ so; like this  이렇게 ★★★★★ ireoke												
+내 도움 안 필요하겠어요?	Are you sure you don't need my help?	Adding ㅁ/음 to verbs or adjectives to turn them into nouns. ㅁ gets added to stems ending in a vowel, and 음 gets added after stems that end in a consonant.	도움	help												
+무슨 소리예요, 지금 그게	What are you talking about?		그게													
+이번에 성과가 아주 좋았습니다	We were quite successful this time.		성과	【성과】성꽈 ★★★★ result; outcome; product												
+[무거운 음악] 배 돌리오	Turn the boat back.		돌리다	【돌리다】돌리다 ★★★★★ 1.  turn the corner 2.  borrow 3.  turn; spin 4.  operate; run 5.  use 6.  spin 7.  spin 8.  move around 9.  distribute; deliver 10.  pass; shift 11.  turn 12.  change 13.  delay; put off 14.  treat 15.  change the subject												
+저기 저 배 아니에요?	Isn't it the ship over there?		아니다	【아니다】아니다 ★★★★★ 1.  not 2.  not												
+나 지금 가야 돼요	I have to go now.		가다, 가야	【가다】가다 ★★★★★ 가 (go) + 야 (have to)												
+열심히 할 필요는 없어, 잘해야지	There's no need to do your best. You must do a good job.		하다, 할	【하다】하다 ★★★★★ 1.  do; perform 2.  make 3.  wear 4.  do; drink; smoke 5.  wear 6.  work; run; engage in 7.  serve; play; do 8.  get; become 9.  buy; take 10.  cost 11.  prove; live up to 12.  distinguish 13.  handle 14.  pick out; choose 15.  put 16.  decide; make up one's mind 17.  call; name 18.  result from 19.  make a transit 20.  reach 21.  say 22.  say 23.  say 24.  treat 25.  do 26.  do 27.  think; figure 28.  say 29.  do 30.  sound; go 31.  say 32.  mean 33.  hada 34.  hada 35.  hada 36.  hada 37.  hada 38.  hada 39.  hada 40.  hada 41.  hada 42.  hada  【할】할 hal												
+엄마! 뭐라고 말씀 좀 하세요, 좀!	mom! Please say something!		뭐	【뭐】뭐ː ★★★★★ 1.  what 2.  what 3.  really 4.  what; oh my goodness; oh my gosh 5.  what 6.  well; you know 7.  anyway 8.  oh well; anyway												
+그리고 이거 천5백만 개 아니에요	And this isn't 15 million		아니다	【아니다】아니다 ★★★★★ 1.  not 2.  not												
+TV도 없고 만화나 게임도 없고	No TV, no comics or games.		만화	【만화】만ː화 ★★★★ comics												
+아주 좋은 방법이 있거든	There is a very good way	Teaching the listener what he or she doesn’t know ~거든(요)	방법	【방법】방법 ★★★★★ way; means; manner phương pháp												
+이 세계라면 다시 시작할 수 있어	In this world, we can start again		세계	【세계】세ː계 ★★★★★ 1.  world; universe 2.  world 3.  world; circle; community												
+무슨 냄새 안 나?	Hey, you smell that?		냄새	【냄새】냄ː새 ★★★★★ 1.  smell; scent; odor 2.  mood												
+카드도 있고 현금도 있어	I have cards and cash		현금	【현금】현ː금 ★★★★ 1.  cash 2.  cash; ready money 3.  cash												
+이거 어떻게 해야 해?	Um... What should I do with this?		어떻다, 어떻게	【어떻다】어떠타 ★★★★★ such												
+힘들었지? 더 먹어 봐	You've had a hard time. Eat some more.		힘들다	【힘들다】힘들다 ★★★★★ 1.  strenuous; laborious 2.  hard; difficult; tough 3.  badly off; in trouble; in difficulty 4.  hard; difficult												
+혼자 돌아갈 수 있지?	Can you go back alone?	ㄹ 수 있지	돌아가다	【돌아가다】도라가다 ★★★★★ 1.  spin; rotate 2.  become 3.  be delivered 4.  take turns 5.  work; function 6.  be circulated 7.  be dizzy; feel giddy 8.  die 9.  go back; return 10.  be given 11.  be distributed; be divided 12.  end; finish 13.  detour 14.  go around 15.  go around												
+대문 열어라, 손님 가신다!	Open the main gates! He's leaving!		대문	【대문】대ː문 ★★★★ gate												
+저는 한국 친구를 많이 사귀고 싶어요.	I want to make a lot of Korean friends. 사귀고  = get along with															
+저는 친구들과 놀 때 가장 재미있습니다.	I have the most fun when I hang out with my friends.	재미 = fun; interest														

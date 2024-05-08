@@ -14,7 +14,7 @@ import pickle
 # ------------ CONSTANTS ------------- #
 
 LESSON_URL = "http://127.0.0.1/lwt/index.php"
-HTML_DOC = r"C:\Users\Hii\Downloads\Python Files\LingQ pages\Who_is_she\English\LingQ Learning Languages Simply.html"
+HTML_DOC = r"C:\Users\Hii\Downloads\Python Files\LingQ pages\Who_is_she\Korean\LingQ Learning Languages Simply.html"
 
 # ------ Setup selenium with normal cookie --- #
 options = webdriver.ChromeOptions()
@@ -106,15 +106,15 @@ def extract_text(story_link):
             sentence_item_span_tag = sentence.find_elements(By.XPATH, "./span")
             for count, tag in enumerate(sentence_item_span_tag, start=1):
                 sentence_text += tag.text
-
+                sentence_text += " "
                 # add white space or end sentence symbol
-                if count != len(sentence_item_span_tag):
-                    sentence_text += " "
-                else:
-                    try:
-                        sentence_text += sentence.text[-1]
-                    except:
-                        pass
+                # if count != len(sentence_item_span_tag):
+                #     sentence_text += " "
+                # else:
+                #     try:
+                #         sentence_text += sentence.text[-1]
+                #     except:
+                #         pass
                 print(tag.text)
 
             text += sentence_text
@@ -140,10 +140,10 @@ def main():
     driver.get("https://www.google.com/")
     driver.execute_script("window.open('about:blank','secondtab')")
     driver.switch_to.window("secondtab")
-    # link_list = extract_stories_links()
-    link_list = [
-        "https://www.lingq.com/en/learn/en/web/reader/20286"
-    ]
+    link_list = extract_stories_links()
+    # link_list = [
+    #     "https://www.lingq.com/en/learn/en/web/reader/20286"
+    # ]
     for count, link in enumerate(link_list, start=1):
         result_text = extract_text(link)
         mp3_link = extract_mp3_link(driver)

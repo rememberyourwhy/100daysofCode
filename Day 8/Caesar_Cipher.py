@@ -27,7 +27,7 @@ def caesar_cipher(shift = 0):
   return {"encode" : encrypt(text, shift, alphabet), "decode" : decrypt(text, shift, alphabet)}[direction]
 
 def none_stop_mode():
-  shift = int(input("Input static shift number "))
+  shift = int(input("input static shift number "))
   while True:
     print(caesar_cipher(shift))
 

@@ -40,7 +40,7 @@ def main_game():
     lives = 6
     while "_" in word_blank and lives > 0:
 
-        #User Input part
+        #User input part
         #Ask user which character to guess
         guess_character = input("Guess a character ")
 
